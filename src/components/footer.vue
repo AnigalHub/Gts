@@ -45,7 +45,6 @@
                 link_phone:'tel:+74953692673',
                 mail:'info@gtekhno.ru',
                 link_mail:'mailto:info@gtekhno.ru'
-
             }
         }
     }

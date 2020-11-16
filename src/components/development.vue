@@ -32,7 +32,6 @@
         name: "development",
         data(){
             return {
-
                 heading: 'Разработка и проектирование',
                 slide: 0,
                 myArray: [
@@ -80,11 +79,9 @@
             text-decoration: underline;
             text-shadow: 0 0.063rem 0 #1f0b30, 0 0.063rem 0 #a6a6a6, 0 0.125rem 0 #1f0b30;
         }
-
         h4,.text{
             text-align:left;
         }
-
         .carousel-control-prev {
             float: left !important;
         }
@@ -96,7 +93,6 @@
             border-radius: 0.313rem;
             padding: 0.313rem;
         }
-
     }
     @media screen and (max-width: 500px) {
         #development{

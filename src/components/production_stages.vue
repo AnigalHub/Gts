@@ -112,7 +112,6 @@
         }
     }
     @media screen and (max-width: 500px) {
-
         #production_stages{
             .container{
                 background: url("../../public/mob.png");
@@ -127,7 +126,6 @@
                 height:1.75rem !important;
                 padding: 0 1% !important;
             }
-
             .col_svg{
                 svg{
                     width: 50% !important;
@@ -154,7 +152,6 @@
             .row{
                 flex-direction:column;
             }
-
             #proekt,#delivery,#introduction,#support,#guarantee{
                 width: 1.563rem !important;
                 height:1.875rem !important;
@@ -186,7 +183,6 @@
             .row{
                 flex-direction:column;
             }
-
             #proekt,#delivery,#introduction,#support,#guarantee{
                 width: 2.813rem!important;
                 height:2.813rem !important;
@@ -213,7 +209,6 @@
             .row{
                 flex-direction:column;
             }
-
             #proekt,#delivery,#introduction,#support,#guarantee{
                 width: 3.438rem !important;
                 height:3.438rem !important;
@@ -228,13 +223,11 @@
                 display:block;
                 padding-top: 0;
             }
-
         }
     }
     @media screen and (min-width: 1200px)and (max-width: 1400px) {
 
         #production_stages{
-
             #proekt,#delivery,#introduction,#support,#guarantee{
                 width: 6.25rem !important;
                 height:3.438rem !important;

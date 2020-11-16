@@ -69,17 +69,14 @@
         svg{
             width: 100% !important;
         }
-
         .program_solutions{
             background: url("../../public/background.png");
             background-size: 100% 100%;
         }
-
         .col .row{
             margin-top: 2% !important;
             padding-bottom:1.5%;
         }
-
     }
     @media screen and (max-width: 500px) {
        #software_solutions{
@@ -95,7 +92,6 @@
             h4{
                 letter-spacing: -0.05rem;
             }
-
             .program_svg,.program_solutions{
                 flex: 0 0 100% !important;
                 max-width: 100% !important;
@@ -147,7 +143,6 @@
             .import_row{
                 flex-direction: column;
             }
-
             .text {
                 line-height: 0.938rem;
                 height: 2.813rem;

@@ -78,7 +78,6 @@
     .row{
         padding-bottom: 2%;
     }
-
     #storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
         height: 3.75rem ; float:left;
     }
@@ -87,7 +86,6 @@
         background: url("../../public/background_2.png");
         background-size: 100% 100%;
     }
-
     .col{
         .col{
             max-width: 20%;
@@ -95,7 +93,6 @@
             padding-right: 0 !important;
         }
     }
-
 	@media screen and (max-width: 500px) {
 		.import_row{
 			flex-direction: column-reverse;
@@ -116,7 +113,6 @@
 			height: 1.5625rem ;
 		}
 		.list_supply{
-
 			.col{
 				max-width: 5%;
 				padding-left: 0 !important;
@@ -142,7 +138,6 @@
 			height: 1.5625rem ;
 		}
 		.list_supply{
-
 			.col{
 				max-width: 5%;
 				padding-left: 0 !important;

@@ -58,7 +58,6 @@
     #service_support{
         background: linear-gradient(to top,#180b2d, #2b1149,#1d0d34);
         padding:3% 2% 2% 2% ;
-
         .col{
             border-radius: 0.938rem;
             box-shadow: 0 0 0.313rem rgba(130, 149, 198, 0.62);
@@ -72,7 +71,6 @@
             border: none !important;
             box-shadow: none !important;
             margin: 0 !important;
-
             .col {
                 padding: 1.563rem;
                 margin: 0.75rem;
@@ -81,7 +79,6 @@
         svg{
             padding-top: 15%;
         }
-
     }
     @media screen and (max-width: 500px) {
        #service_support{
@@ -101,7 +98,6 @@
                     margin:0.5rem;
                 }
             }
-
             svg{
                 margin-left: auto;
                 margin-right: auto;
@@ -154,7 +150,6 @@
                     padding: 0.625rem;
                 }
             }
-
             .text {
                 line-height: 0.938rem;
             }

@@ -231,7 +231,6 @@
     }
     @media screen and (min-width: 992px)and (max-width: 1200px) {
         #company_features{
-
             .col-7{
                 flex: 0 0 66.666667% !important;
                 max-width: 66.666667% !important;
@@ -251,7 +250,6 @@
             #access_control,#server,#telecommunications{
                 height: 5.625rem !important;
             }
-
         }
     }
     @media screen and (min-width: 1200px)and (max-width: 1400px) {
@@ -267,7 +265,6 @@
             #access_control,#server,#telecommunications{
                 height: 5rem !important;
             }
-
         }
     }
     @media screen and (min-width: 1400px)and (max-width: 1600px) {
@@ -283,7 +280,6 @@
             #access_control,#server,#telecommunications{
                 height: 3.75rem !important;
             }
-
         }
     }
 </style>
