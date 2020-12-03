@@ -63,7 +63,7 @@
 		}
 		#gts{
 			font-size:1.563rem;
-			top: 2.875rem;
+			top: 3.5rem;
 			text-shadow: 0px 1.5px 0px #5050a0,
 			0px 14px 10px rgba(0,0,0,0.15),
 			0px 24px 2px rgba(0,0,0,0.1),
@@ -72,7 +72,7 @@
 		#gts_description{
 			color: #61a7c1;
 			font-size:1rem;
-			top: 4.375rem;
+			top: 5rem;
 		}
 	}
 	@media screen and (min-width: 500px)and (max-width: 768px) {
