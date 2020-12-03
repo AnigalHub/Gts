@@ -74,7 +74,7 @@
         .st0{fill:#9aaecf;}
         .st1{fill:#9aaecf;stroke:#9aaecf;stroke-width:0.2415;stroke-miterlimit:10;}
         .st2{
-            fill: #cf5443;
+            fill: #9aaecf;
         }
     }
     #emblem:hover .st0{
