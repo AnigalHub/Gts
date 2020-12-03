@@ -66,7 +66,7 @@
         .active{
             border:0.125rem solid #8b7eb6;
             background: #8b7eb6;
-            box-shadow: 0 2px 8px rgba(92, 84, 124, 0.4),
+            box-shadow: 0 2px 8px rgba(92, 84, 124, 0.4), 
             inset 0 -15px 30px rgba(66, 55, 110, 0.3);
             color: white;
         }
@@ -86,6 +86,7 @@
             color: #90d4fd;
         }
     }
+
     @media screen and  (min-width: 1200px) {
         .navbar-nav {
             width: 95%;
