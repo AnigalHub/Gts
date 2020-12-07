@@ -9,23 +9,13 @@
                     <h2>{{heading}}</h2>
                     <div class="place_for_facilities">
                         <b-row class="parts_facilities">
-                            <b-col>
-                                <b-row class="possibility" v-for="features in RowFeatures_first" :key="features.name_features">
+                            <b-col  v-for="(features,index) in Features" :key="index">
+                                <b-row class="possibility" v-for="value in features.RowFeatures" :key="value.name_features">
                                     <b-col class="place_for_possibility">
-                                        <component :is="features.svg"/>
+                                        <component :is="value.svg"/>
                                     </b-col>
                                     <b-col cols="8" class="text">
-                                        <features :name_features="features.name_features"></features>
-                                    </b-col>
-                                </b-row>
-                            </b-col>
-                            <b-col>
-                                <b-row class="possibility" v-for="features in  RowFeatures_second" :key="features.name_features">
-                                    <b-col class="place_for_possibility">
-                                        <component :is="features.svg"/>
-                                    </b-col>
-                                    <b-col cols="8" class="text">
-                                        <features :name_features="features.name_features"></features>
+                                        <features :name_features="value.name_features"></features>
                                     </b-col>
                                 </b-row>
                             </b-col>
@@ -52,33 +42,39 @@
         data(){
             return {
                 heading: 'Наши возможности',
-                RowFeatures_first:[
+                Features:[
                     {
-                        name_features:'Оборудование рабочего места',
-                        svg:'svg_computer',
+                        RowFeatures:[
+                            {
+                                name_features:'Оборудование рабочего места',
+                                svg:'svg_computer',
+                            },
+                            {
+                                name_features:'Видеонаблюдение',
+                                svg:'svg_videomonitoring',
+                            },
+                            {
+                                name_features:'Сервера, системы хранения и обработки данных',
+                                svg:'svg_server',
+                            },
+                        ],
                     },
                     {
-                        name_features:'Видеонаблюдение',
-                        svg:'svg_videomonitoring',
-                    },
-                    {
-                        name_features:'Сервера, системы хранения и обработки данных',
-                        svg:'svg_server',
-                    },
-                ],
-                RowFeatures_second:[
-                    {
-                        name_features:'Расходные материалы',
-                        svg:'svg_materials',
-                    },
-                    {
-                        name_features:'Контроль доступа',
-                        svg:'svg_accesscontrol',
-                    },
+                        RowFeatures:[
+                            {
+                                name_features:'Расходные материалы',
+                                svg:'svg_materials',
+                            },
+                            {
+                                name_features:'Контроль доступа',
+                                svg:'svg_accesscontrol',
+                            },
 
-                    {
-                        name_features:'Телекоммуникационные системы, локальные сети',
-                        svg:'svg_telecommunications',
+                            {
+                                name_features:'Телекоммуникационные системы, локальные сети',
+                                svg:'svg_telecommunications',
+                            }
+                        ],
                     }
                 ],
             }
