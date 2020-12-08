@@ -7,16 +7,9 @@
                 </b-col>
                 <b-col class="support">
                     <h2>{{heading}}</h2>
-                    <b-row id="v-for-object">
-                        <b-col id="v-for-object" :key="value" class="text" v-for="value in object">{{ value }}
-                        </b-col>
-                    </b-row>
-                    <b-row id="v-for-object_2">
-                        <b-col id="v-for-object_2" :key="value_2" class="text" v-for="value_2 in object_2">{{ value_2 }}
-                        </b-col>
-                    </b-row>
-                    <b-row id="v-for-object_3">
-                        <b-col id="v-for-object_3" :key="value_3" class="text" v-for="value_3 in object_3">{{ value_3 }}
+                    <b-row v-for="(prf,index) in ServiceSupport" :key="index">
+                        <b-col class="text" v-for="value in prf.SupportRow" :key="value.paragraph">
+                            {{value.paragraph}}
                         </b-col>
                     </b-row>
                 </b-col>
@@ -33,21 +26,38 @@
         data() {
             return {
                 heading: 'Сервисная поддержка 24/7',
-                el:'v-for-object',
-                object:{
-                    paragraph_1:'Разработка и поставка решений, соответствующих требованиям именно вашей компании даже в минимальных количествах',
-                    paragraph_2:'Проведение пусконаладочных работ и дальнейшего гарантийного и постгарантийного обслуживания'
-                },
-                el:'v-for-object_2',
-                object_2:{
-                    paragraph_3:'Огромный опыт работы с госзаказами, множество успешно закрытых поставок',
-                    paragraph_4:'Если наше оборудование сломалось, а гарантийный срок не прошел, мы заберем его и предоставим замену'
-                },
-                el:'v-for-object_3',
-                object_3:{
-                    paragraph_5:'Разработка аппаратных комплексов по ТУ Заказчика',
-                    paragraph_6:'Стоимость нашего оборудования ниже, чем у конкурентов'
-                },
+                ServiceSupport:[
+                    {
+                        SupportRow:[
+                            {
+                                paragraph:"Разработка и поставка решений, соответствующих требованиям именно вашей компании даже в минимальных количествах"
+                            },
+                            {
+                                paragraph:"Проведение пусконаладочных работ и дальнейшего гарантийного и постгарантийного обслуживания"
+                            },
+                        ]
+                    },
+                    {
+                        SupportRow:[
+                            {
+                                paragraph:"Огромный опыт работы с госзаказами, множество успешно закрытых поставок"
+                            },
+                            {
+                                paragraph:"Если наше оборудование сломалось, а гарантийный срок не прошел, мы заберем его и предоставим замену"
+                            },
+                        ]
+                    },
+                    {
+                        SupportRow:[
+                            {
+                                paragraph:"Разработка аппаратных комплексов по ТУ Заказчика"
+                            },
+                            {
+                                paragraph:"Стоимость нашего оборудования ниже, чем у конкурентов"
+                            },
+                        ]
+                    },
+                ],
             }
         },
 
