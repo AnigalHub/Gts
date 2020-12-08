@@ -62,7 +62,6 @@
 </script>
 
 <style scoped lang="scss">
-
     #software_solutions{
         background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
         padding:3% 2% 2% 2% ;
@@ -138,7 +137,6 @@
         }
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
-
         #software_solutions{
             .import_row{
                 flex-direction: column;

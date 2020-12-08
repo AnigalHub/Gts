@@ -38,7 +38,6 @@
     height: auto;
     color: white;
     max-height: 100%;
-
     .text{
         margin-top: 3%;
         text-align: center;

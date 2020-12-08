@@ -120,7 +120,6 @@
             .row{
                 flex-direction:column;
             }
-
             #proekt,#delivery,#introduction,#support,#guarantee{
                 width:2.188rem !important;
                 height:1.75rem !important;
@@ -143,7 +142,6 @@
         }
     }
     @media screen and (min-width: 500px)and (max-width: 768px) {
-
         #production_stages{
             .container{
                 background: url("../../public/mob.png");
@@ -174,7 +172,6 @@
         }
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
-
         #production_stages{
             .container{
                 background: url("../../public/mob.png");
@@ -200,7 +197,6 @@
         }
     }
     @media screen and (min-width: 992px)and (max-width: 1200px) {
-
         #production_stages{
             .container{
                 background: url("../../public/mob.png");
@@ -226,7 +222,6 @@
         }
     }
     @media screen and (min-width: 1200px)and (max-width: 1400px) {
-
         #production_stages{
             #proekt,#delivery,#introduction,#support,#guarantee{
                 width: 6.25rem !important;
@@ -238,9 +233,7 @@
         }
     }
     @media screen and (min-width: 1400px)and (max-width: 1600px) {
-
         #production_stages{
-
            .text {
                 line-height: 1.25rem;
             }
@@ -249,6 +242,5 @@
                 height:3.438rem;
             }
         }
-
     }
 </style>

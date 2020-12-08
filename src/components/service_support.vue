@@ -2,7 +2,7 @@
     <div id="service_support">
         <b-container>
             <b-row class="import_row">
-                <b-col  cols="5">
+                <b-col cols="5">
                     <svgService></svgService>
                 </b-col>
                 <b-col class="support">

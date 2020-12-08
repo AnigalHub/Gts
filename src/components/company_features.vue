@@ -107,7 +107,6 @@
         .place_for_facilities{
             padding-bottom: 2%;
         }
-
         #computer, #materials,#video_monitoring,
         #access_control,#server,#telecommunications{
             width: 100% ;
@@ -142,7 +141,6 @@
                 padding-right: 0 !important;
             }
             .possibility{
-
                 .col-8{
                     flex: 0 0 75% !important;
                     max-width: 75% !important;
@@ -182,7 +180,6 @@
                 padding-right: 0 !important;
             }
             .possibility{
-
                 .col-8{
                     padding-right: 0 !important;
                     padding-left: 0 !important;

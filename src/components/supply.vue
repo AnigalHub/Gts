@@ -78,7 +78,8 @@
     .row{
         padding-bottom: 2%;
     }
-    #storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
+    #storage_system,#printer,#projectors,#workstations,
+    #video_surveillance_equipment,#software,#scs{
         height: 3.75rem ; float:left;
     }
     .list_supply{
@@ -109,7 +110,8 @@
 			display:block;
 			width: 90% !important;
 		}
-		#storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
+		#storage_system,#printer,#projectors,#workstations,
+        #video_surveillance_equipment,#software,#scs{
 			height: 1.5625rem ;
 		}
 		.list_supply{
@@ -134,7 +136,8 @@
 			display:block;
 			width: 60% !important;
 		}
-		#storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
+		#storage_system,#printer,#projectors,#workstations,
+        #video_surveillance_equipment,#software,#scs{
 			height: 1.5625rem ;
 		}
 		.list_supply{
@@ -159,22 +162,26 @@
 			display:block;
 			width: 60% !important;
 		}
-		#storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
+		#storage_system,#printer,#projectors,#workstations,
+        #video_surveillance_equipment,#software,#scs{
 			height: 2.1875rem ;
 		}
     }
     @media screen and (min-width: 992px)and (max-width: 1200px) {
-		#storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
+		#storage_system,#printer,#projectors,#workstations,
+        #video_surveillance_equipment,#software,#scs{
 			height: 1.875rem ;
 		}
     }
     @media screen and (min-width: 1200px)and (max-width: 1400px) {
-        #storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
+        #storage_system,#printer,#projectors,#workstations,
+        #video_surveillance_equipment,#software,#scs{
             height: 2.5rem ;
         }
     }
     @media screen and (min-width: 1400px)and (max-width: 1600px) {
-        #storage_system,#printer,#projectors,#workstations,#video_surveillance_equipment,#software,#scs{
+        #storage_system,#printer,#projectors,#workstations,
+        #video_surveillance_equipment,#software,#scs{
             height: 3.125rem ;
         }
     }

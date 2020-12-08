@@ -12,7 +12,6 @@ Vue.use(CarouselPlugin);
 Vue.use(NavbarPlugin);
 Vue.use(BootstrapVueIcons);
 
-
 Vue.config.productionTip = false;
 
 new Vue({
