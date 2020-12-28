@@ -70,7 +70,7 @@
         background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
         padding:3% 2% 2% 2% ;
         .col-6{
-            background: url("../../public/background.png");
+            background: url("../../public/images/background.png");
             background-size: 100% 100%;
         }
         h4 {

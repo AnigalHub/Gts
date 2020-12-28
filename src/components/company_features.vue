@@ -87,7 +87,7 @@
         background: linear-gradient(to top,#180b2d, #2b1149,#1d0d34);
         padding:3% 2% 2% 2% ;
         .col-7{
-            background: url("../../public/background_2.png");
+            background: url("../../public/images/background_2.png");
             background-size: 100% 100%;
         }
         .text{

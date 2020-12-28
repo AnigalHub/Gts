@@ -22,7 +22,7 @@
 		background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
 		padding:0 4% 0 4% ;
 		.container{
-			background: url("../../public/glav.png");
+			background: url("../../public/images/glav.png");
 			background-size: 100% 100%;
 		}
 	}

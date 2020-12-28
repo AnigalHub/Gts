@@ -91,7 +91,7 @@
         background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
         padding:3% 2% 2% 2% ;
         .container{
-            background: url("../../public/glav.png");
+            background: url("../../public/images/glav.png");
             background-size: 100% 100%;
         }
         .col{
@@ -114,7 +114,7 @@
     @media screen and (max-width: 500px) {
         #production_stages{
             .container{
-                background: url("../../public/mob.png");
+                background: url("../../public/images/mob.png");
                 background-size: 100% 100%;
             }
             .row{
@@ -144,7 +144,7 @@
     @media screen and (min-width: 500px)and (max-width: 768px) {
         #production_stages{
             .container{
-                background: url("../../public/mob.png");
+                background: url("../../public/images/mob.png");
                 background-size: 100% 100%;
             }
             .row{
@@ -174,7 +174,7 @@
     @media screen and (min-width: 768px)and (max-width: 992px) {
         #production_stages{
             .container{
-                background: url("../../public/mob.png");
+                background: url("../../public/images/mob.png");
                 background-size: 100% 100%;
             }
             .row{
@@ -199,7 +199,7 @@
     @media screen and (min-width: 992px)and (max-width: 1200px) {
         #production_stages{
             .container{
-                background: url("../../public/mob.png");
+                background: url("../../public/images/mob.png");
                 background-size: 100% 100%;
             }
             .row{
