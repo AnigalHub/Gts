@@ -8,7 +8,7 @@
                 </b-col>
                 <b-col cols="7">
                     <div class="feature map">
-                        <iframe :src="address.map"></iframe>
+                        <iframe :src="address.map" title="Адрес_компании"></iframe>
                     </div>
                 </b-col>
             </b-row>
@@ -34,7 +34,7 @@
         background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
         padding:3% 2% 2% 2% ;
         .col{
-            background: url("../../public/images/background.png");
+            background: url("../../public/images/background.webp");
             background-size: 100% 100%;
         }
         .feature.map {
