@@ -75,23 +75,19 @@ body{
 }
 h2{
   padding-top: 4%;
-  font-weight: 600;
+  font-weight: 700;
   padding-bottom: 1%;
   cursor: default;
   text-align: center;
   text-shadow: 0 .5px 0 #CCCCCC, 0 .5px 0 #a6a6a6, 0 1px 0 #a6a6a6;
-  color: #8bcdf5;
-  font-family: 'Roboto', sans-serif;
-}
-h4{
-  color: #8bcdf5;
-  font-family: 'Roboto', sans-serif;
 }
 .text{
-  color: #8bcdf5;
   font-size:1.375rem;
-  font-family: 'Roboto', sans-serif;
   padding-bottom: 2%;
+}
+h2,h4,.text{
+  color: #8bcdf5;
+  font-family: 'Roboto', sans-serif;
 }
 
 @media screen and (max-width: 500px) {
