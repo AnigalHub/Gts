@@ -69,7 +69,7 @@
             width: 100% !important;
         }
         .program_solutions{
-            background: url("../../public/images/background.png");
+            background: url("../../public/images/background.webp");
             background-size: 100% 100%;
         }
         .col .row{

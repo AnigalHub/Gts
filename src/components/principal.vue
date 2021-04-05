@@ -22,40 +22,39 @@
 		background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
 		padding:0 4% 0 4% ;
 		.container{
-			background: url("../../public/images/glav.png");
+			background: url("../../public/images/glav.webp");
 			background-size: 100% 100%;
 		}
 	}
 	#gts{
 		font-size:5.313rem;
-		text-align:center;
 		color: #71c1db;
-		font-family: 'Play', sans-serif;
-		text-shadow: 0px 5px 0px #5050a0,
-		0px 14px 10px rgba(0,0,0,0.15),
-		0px 24px 2px rgba(0,0,0,0.1),
-		0px 34px 30px rgba(0,0,0,0.1);
+		text-shadow: 0 5px 0 #5050a0,
+		0 14px 10px rgba(0,0,0,0.15),
+		0 24px 2px rgba(0,0,0,0.1),
+		0 34px 30px rgba(0,0,0,0.1);
 		position: absolute;
 		top:9.063rem;
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%)
 	}
-
 	#gts_description{
 		font-size:35px;
-		text-align:center;
 		color: #6199c1;
-		font-family: 'Play', sans-serif;
-		text-shadow: 0px 1px 0px #5050a0,
-		0px 14px 10px rgba(0,0,0,0.15),
-		0px 24px 2px rgba(0,0,0,0.1),
-		0px 34px 30px rgba(0,0,0,0.1);
+		text-shadow: 0 1px 0 #5050a0,
+		0 14px 10px rgba(0,0,0,0.15),
+		0 24px 2px rgba(0,0,0,0.1),
+		0 34px 30px rgba(0,0,0,0.1);
 		position: absolute;
 		top: 13.75rem;
 		left: 50%;
 		margin-right: -50%;
 		transform: translate(-50%, -50%)
+	}
+	#gts,#gts_description{
+		font-family: 'Play', sans-serif;
+		text-align:center;
 	}
 	@media screen and (max-width: 500px) {
 		#principal{

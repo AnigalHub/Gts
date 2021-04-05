@@ -87,17 +87,14 @@
         background: linear-gradient(to top,#180b2d, #2b1149,#1d0d34);
         padding:3% 2% 2% 2% ;
         .col-7{
-            background: url("../../public/images/background_2.png");
+            background: url("../../public/images/background_2.webp");
             background-size: 100% 100%;
         }
         .text{
             font-weight: 700 !important;
         }
         .col-7 .row{
-            padding-top: 5%;
-            padding-right: 7%;
-            padding-left: 7%;
-            padding-bottom: 5%;
+            padding: 5% 7% 5% 7%;
         }
         svg {
             display: block;

@@ -84,7 +84,7 @@
     }
     .list_supply{
         padding: 0 !important;
-        background: url("../../public/images/background_2.png");
+        background: url("../../public/images/background_2.webp");
         background-size: 100% 100%;
     }
     .col{
