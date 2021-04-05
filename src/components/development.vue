@@ -4,7 +4,7 @@
             <b-row>
                 <b-col cols="6">
                     <h2>{{heading}}</h2>
-                  <b-carousel v-model="slide" ref="myCarousel" :interval="4000" background="transparent" img-width="400" img-height="205">
+                  <b-carousel v-model="slide" ref="myCarousel" :interval="4000" background="transparent" img-width="400" img-height="205" alt="">
                         <b-carousel-slide  v-for="item in myArray" :key="item.id"  img-blank>
                             <h4>{{item.name}}</h4>
                             <div class="text">{{item.descr}}</div>
@@ -70,7 +70,7 @@
         background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
         padding:3% 2% 2% 2% ;
         .col-6{
-            background: url("../../public/images/background.png");
+            background: url("../../public/images/background.webp");
             background-size: 100% 100%;
         }
         h4 {
