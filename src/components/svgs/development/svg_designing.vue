@@ -6246,9 +6246,9 @@
 <style lang="scss" scoped>
     #designing{
         .ww0{fill:url(#SVGIDs_1_);}
-        .ww1{opacity:0.6;fill:#020230;enable-background:new    ;}
+        .ww1{opacity:0.6;fill:#020230;enable-background: new;}
         .ww2{fill:url(#SVGIDs_2_);}
-        .ww3{opacity:0.4;fill:#06033E;enable-background:new    ;}
+        .ww3{opacity:0.4;fill:#06033E;enable-background: new;}
         .ww4{fill:#007bff;}
         .ww5{fill:#F8359E;}
         .ww6{fill:#FFE4A7;}
@@ -6267,7 +6267,7 @@
         .ww19{fill:url(#SVGIDs_11_);}
         .ww20{fill:url(#SVGIDs_12_);}
         .ww21{fill:url(#SVGIDs_13_);}
-        .ww22{opacity:0.4;fill:url(#SVGIDs_14_);enable-background:new    ;}
+        .ww22{opacity:0.4;fill:url(#SVGIDs_14_);enable-background: new;}
         .ww23{fill:url(#SVGIDs_15_);}
         .ww24{fill:#2D0C77;}
         .ww25{fill:url(#SVGIDs_16_);}
@@ -6279,7 +6279,7 @@
         .ww31{fill:url(#SVGIDs_22_);}
         .ww32{fill:url(#SVGIDs_23_);}
         .ww33{fill:url(#SVGIDs_24_);}
-        .ww34{opacity:0.4;fill:url(#SVGIDs_25_);enable-background:new    ;}
+        .ww34{opacity:0.4;fill:url(#SVGIDs_25_);enable-background: new;}
         .ww35{fill:url(#SVGIDs_26_);}
         .ww36{fill:url(#SVGIDs_27_);}
         .ww37{fill:url(#SVGIDs_28_);}
@@ -6290,7 +6290,7 @@
         .ww42{fill:url(#SVGIDs_33_);}
         .ww43{fill:url(#SVGIDs_34_);}
         .ww44{fill:url(#SVGIDs_35_);}
-        .ww45{opacity:0.4;fill:url(#SVGIDs_36_);enable-background:new    ;}
+        .ww45{opacity:0.4;fill:url(#SVGIDs_36_);enable-background: new;}
         .ww46{fill:url(#SVGIDs_37_);}
         .ww47{fill:url(#SVGIDs_38_);}
         .ww48{fill:url(#SVGIDs_39_);}
@@ -6301,7 +6301,7 @@
         .ww53{fill:url(#SVGIDs_44_);}
         .ww54{fill:url(#SVGIDs_45_);}
         .ww55{fill:url(#SVGIDs_46_);}
-        .ww56{opacity:0.4;fill:url(#SVGIDs_47_);enable-background:new    ;}
+        .ww56{opacity:0.4;fill:url(#SVGIDs_47_);enable-background: new;}
         .ww57{fill:url(#SVGIDs_48_);}
         .ww58{fill:url(#SVGIDs_49_);}
         .ww59{fill:url(#SVGIDs_50_);}
@@ -6312,7 +6312,7 @@
         .ww64{fill:url(#SVGIDs_55_);}
         .ww65{fill:url(#SVGIDs_56_);}
         .ww66{fill:url(#SVGIDs_57_);}
-        .ww67{opacity:0.4;fill:url(#SVGIDs_58_);enable-background:new    ;}
+        .ww67{opacity:0.4;fill:url(#SVGIDs_58_);enable-background: new;}
         .ww68{fill:url(#SVGIDs_59_);}
         .ww69{fill:url(#SVGIDs_60_);}
         .ww70{fill:url(#SVGIDs_61_);}
@@ -6333,12 +6333,12 @@
         .ww85{fill:url(#SVGIDs_74_);}
         .ww86{fill:url(#SVGIDs_75_);}
         .ww87{fill:url(#SVGIDs_76_);}
-        .ww88{opacity:0.3;fill:#06033E;enable-background:new    ;}
+        .ww88{opacity:0.3;fill:#06033E;enable-background: new;}
         .ww89{fill:url(#SVGIDs_77_);}
         .ww90{fill:url(#SVGIDs_78_);}
         .ww91{fill:url(#SVGIDs_79_);}
         .ww92{fill:url(#SVGIDs_80_);}
-        .ww93{display:none;opacity:0.4;fill:#06033E;enable-background:new    ;}
+        .ww93{display:none;opacity:0.4;fill:#06033E;enable-background: new;}
         .ww94{fill:url(#SVGIDs_81_);}
         .ww95{fill:url(#SVGIDs_82_);}
         .ww96{fill:url(#SVGIDs_83_);}
@@ -6375,22 +6375,22 @@
         .ww127{fill:url(#SVGIDs_104_);}
         .ww128{fill:url(#SVGIDs_105_);}
         .ww129{fill:#4326A2;}
-        .ww130{opacity:0.5;fill:url(#SVGIDs_106_);enable-background:new    ;}
+        .ww130{opacity:0.5;fill:url(#SVGIDs_106_);enable-background: new;}
         .ww131{fill:url(#SVGIDs_107_);}
         .ww132{fill:url(#SVGIDs_108_);}
-        .ww133{opacity:0.4;fill:#020230;enable-background:new    ;}
+        .ww133{opacity:0.4;fill:#020230;enable-background: new;}
         .ww134{fill:url(#SVGIDs_109_);}
-        .ww135{opacity:0.3;fill:#180D5B;enable-background:new    ;}
-        .ww136{opacity:0.63;fill:#2D2D2D;enable-background:new    ;}
+        .ww135{opacity:0.3;fill:#180D5B;enable-background: new;}
+        .ww136{opacity:0.63;fill:#2D2D2D;enable-background: new;}
         .ww137{fill:url(#SVGIDs_110_);}
         .ww138{fill:url(#SVGIDs_111_);}
         .ww139{fill:url(#SVGIDs_112_);}
         .ww140{fill:url(#SVGIDs_113_);}
-        .ww141{opacity:0.4;fill:url(#SVGIDs_114_);enable-background:new    ;}
-        .ww142{opacity:0.4;fill:url(#SVGIDs_115_);enable-background:new    ;}
+        .ww141{opacity:0.4;fill:url(#SVGIDs_114_);enable-background: new;}
+        .ww142{opacity:0.4;fill:url(#SVGIDs_115_);enable-background: new;}
         .ww143{fill:url(#SVGIDs_116_);}
-        .ww144{opacity:0.4;fill:url(#SVGIDs_117_);enable-background:new    ;}
-        .ww145{opacity:0.4;fill:url(#SVGIDs_118_);enable-background:new    ;}
+        .ww144{opacity:0.4;fill:url(#SVGIDs_117_);enable-background: new;}
+        .ww145{opacity:0.4;fill:url(#SVGIDs_118_);enable-background: new;}
         .ww146{fill:url(#SVGIDs_119_);}
         .ww147{fill:url(#SVGIDs_120_);}
         .ww148{fill:url(#SVGIDs_121_);}
@@ -6407,9 +6407,9 @@
         .ww159{fill:url(#SVGIDs_129_);}
         .ww160{fill:url(#SVGIDs_130_);}
         .ww161{fill:url(#SVGIDs_131_);}
-        .ww162{opacity:0.4;fill:#F8359E;enable-background:new    ;}
-        .ww163{opacity:0.5;fill:#E8975B;enable-background:new    ;}
-        .ww164{display:inline;opacity:0.4;fill:#06033E;enable-background:new    ;}
+        .ww162{opacity:0.4;fill:#F8359E;enable-background: new;}
+        .ww163{opacity:0.5;fill:#E8975B;enable-background: new;}
+        .ww164{display:inline;opacity:0.4;fill:#06033E;enable-background: new;}
         .ww165{fill:url(#SVGIDs_132_);}
         .ww166{clip-path:url(#SVGIDs_134_);fill:#3919BB;}
         .ww167{clip-path:url(#SVGIDs_136_);fill:#3919BB;}
@@ -6728,16 +6728,16 @@
         .ww480{fill:url(#SVGIDs_731_);}
         .ww481{opacity:0.2;}
         .ww482{fill-opacity:0;}
-        .ww483{opacity:9.090909e-02;enable-background:new    ;}
-        .ww484{opacity:0.1818;enable-background:new    ;}
-        .ww485{opacity:0.2727;enable-background:new    ;}
-        .ww486{opacity:0.3636;enable-background:new    ;}
-        .ww487{opacity:0.4545;enable-background:new    ;}
-        .ww488{opacity:0.5455;enable-background:new    ;}
-        .ww489{opacity:0.6364;enable-background:new    ;}
-        .ww490{opacity:0.7273;enable-background:new    ;}
-        .ww491{opacity:0.8182;enable-background:new    ;}
-        .ww492{opacity:0.9091;enable-background:new    ;}
+        .ww483{opacity:9.090909e-02;enable-background: new;}
+        .ww484{opacity:0.1818;enable-background: new;}
+        .ww485{opacity:0.2727;enable-background: new;}
+        .ww486{opacity:0.3636;enable-background: new;}
+        .ww487{opacity:0.4545;enable-background: new;}
+        .ww488{opacity:0.5455;enable-background: new;}
+        .ww489{opacity:0.6364;enable-background: new;}
+        .ww490{opacity:0.7273;enable-background: new;}
+        .ww491{opacity:0.8182;enable-background: new;}
+        .ww492{opacity:0.9091;enable-background: new;}
         .ww493{fill:url(#SVGIDs_732_);}
         .ww494{fill:url(#SVGIDs_733_);}
         .ww495{fill:url(#SVGIDs_734_);}
@@ -6766,9 +6766,9 @@
         .ww518{fill:url(#SVGIDs_757_);}
         .ww519{fill:url(#SVGIDs_758_);}
         .ww520{fill:url(#SVGIDs_759_);}
-        .ww521{display:none;opacity:0.5;fill:url(#SVGIDs_760_);enable-background:new    ;}
+        .ww521{display:none;opacity:0.5;fill:url(#SVGIDs_760_);enable-background: new;}
         .ww522{fill:url(#SVGIDs_761_);}
-        .ww523{opacity:0.3;fill:url(#SVGIDs_762_);enable-background:new    ;}
+        .ww523{opacity:0.3;fill:url(#SVGIDs_762_);enable-background: new;}
         .ww524{fill:url(#SVGIDs_763_);}
         .ww525{fill:#25054D;}
         .ww526{fill:url(#SVGIDs_764_);}
