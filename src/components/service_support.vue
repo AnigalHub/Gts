@@ -3,7 +3,7 @@
         <b-container>
             <b-row class="import_row">
                 <b-col cols="5">
-                    <svgService></svgService>
+                    <svgService rel="preload"></svgService>
                 </b-col>
                 <b-col class="support">
                     <h2>{{heading}}</h2>

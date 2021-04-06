@@ -1,7 +1,7 @@
 <template>
     <div>
         <slot :slotColor="color"></slot>
-        <h4 :style="pickColor" >{{name_solutions}}</h4>
+        <h3 :style="pickColor" >{{name_solutions}}</h3>
         <div class="text">{{description_solutions}}</div>
     </div>
 </template>
@@ -33,7 +33,7 @@
 </script>
 
 <style lang="scss" scoped>
-    h4{
+    h3{
         font-weight: 900;
         text-decoration: underline;
         text-decoration-color: #922cd3;

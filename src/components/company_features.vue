@@ -3,7 +3,7 @@
         <b-container>
             <b-row class="import_row">
                 <b-col class="place_for_svg">
-                    <svgFeatures></svgFeatures>
+                    <svgFeatures rel="preload"></svgFeatures>
                 </b-col>
                 <b-col cols="7">
                     <h2>{{heading}}</h2>

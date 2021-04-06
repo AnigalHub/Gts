@@ -3,7 +3,7 @@
         <b-container>
             <b-row>
                 <b-col cols="5">
-                    <svgCompany></svgCompany>
+                    <svgCompany rel="preload"></svgCompany>
                 </b-col>
                 <b-col>
                     <h2>{{heading}}</h2>

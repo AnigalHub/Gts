@@ -85,7 +85,10 @@ h2{
   font-size:1.375rem;
   padding-bottom: 2%;
 }
-h2,h4,.text{
+h3{
+  font-size: 1.5rem !important;
+}
+h2,h3,.text{
   color: #8bcdf5;
   font-family: 'Roboto', sans-serif;
 }
@@ -94,7 +97,7 @@ h2,h4,.text{
   h2{
     font-size: 1.2rem !important;
   }
-  h4{
+  h3{
     font-size: 1rem !important;
   }
   .text{
@@ -105,7 +108,7 @@ h2,h4,.text{
   h2{
     font-size: 1.2rem !important;
   }
-  h4{
+  h3{
     font-size: 1rem !important;
   }
   .text{
@@ -116,7 +119,7 @@ h2,h4,.text{
   h2{
     font-size: 1.2rem !important;
   }
-  h4{
+  h3{
     font-size: 1rem !important;
   }
   .text,td{
@@ -128,7 +131,7 @@ h2,h4,.text{
   h2{
     font-size: 1.4rem !important;
   }
-  h4{
+  h3{
     font-size: 1.2rem !important;
   }
   .text{
@@ -140,7 +143,7 @@ h2,h4,.text{
   h2{
     font-size: 1.4rem !important;
   }
-  h4{
+  h3{
     font-size: 1.2rem !important;
   }
   .text,td{
@@ -151,7 +154,7 @@ h2,h4,.text{
   h2{
     font-size: 1.4rem !important;
   }
-  h4{
+  h3{
     font-size: 1.2rem !important;
   }
   .text{

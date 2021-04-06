@@ -3,7 +3,7 @@
         <b-container>
 			<div id="gts">Гостехносервис</div>
 			<div id="gts_description">IT-Технологии и Оборудование</div>
-			<svgCity></svgCity>
+			<svgCity rel="preload" ></svgCity>
 		</b-container>
     </div>
 

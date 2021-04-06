@@ -11,7 +11,7 @@
                     </b-row>
                 </b-col>
                 <b-col class="program_svg">
-                    <svgSolutions></svgSolutions>
+                    <svgSolutions rel="preload"></svgSolutions>
                 </b-col>
             </b-row>
         </b-container>
@@ -88,7 +88,7 @@
                 padding-right: 0 !important;
                 padding-left: 0 !important;
             }
-            h4{
+            h3{
                 letter-spacing: -0.05rem;
             }
             .program_svg,.program_solutions{

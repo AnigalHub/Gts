@@ -1,7 +1,7 @@
 <template>
     <div>
         <slot></slot>
-        <h4>{{stage_name}}</h4>
+        <h3>{{stage_name}}</h3>
         <div class="text">{{stage_description}}</div>
     </div>
 </template>
@@ -15,7 +15,7 @@
     }
 </script>
 <style  lang="scss" scoped>
-    h4{
+    h3{
         padding-bottom: 1%;
         cursor: default;
         text-decoration: underline;

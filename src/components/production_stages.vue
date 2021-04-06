@@ -16,7 +16,7 @@
                 </stage>
             </b-col>
             <b-col class="col_svg">
-                <svgProduction></svgProduction>
+                <svgProduction rel="preload"></svgProduction>
             </b-col>
         </b-row>
     </b-container>

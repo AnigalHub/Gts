@@ -3,7 +3,7 @@
         <b-container>
             <b-row class="import_row">
                 <b-col>
-                    <svgCarSupply></svgCarSupply>
+                    <svgCarSupply rel="preload"></svgCarSupply>
                 </b-col>
                 <b-col class="list_supply">
                     <h2>{{heading}}</h2>
