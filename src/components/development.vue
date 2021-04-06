@@ -4,9 +4,9 @@
             <b-row>
                 <b-col cols="6">
                     <h2>{{heading}}</h2>
-                  <b-carousel v-model="slide" ref="myCarousel" :interval="4000" background="transparent" img-width="400" img-height="205" alt="">
-                        <b-carousel-slide  v-for="item in myArray" :key="item.id"  img-blank>
-                            <h4>{{item.name}}</h4>
+                  <b-carousel v-model="slide" ref="myCarousel" :interval="4000" background="transparent" img-width="400" img-height="205" >
+                        <b-carousel-slide  v-for="item in myArray" :key="item.id"  img-blank  img-alt="">
+                            <h3>{{item.name}}</h3>
                             <div class="text">{{item.descr}}</div>
                         </b-carousel-slide>
                     </b-carousel>
@@ -73,13 +73,13 @@
             background: url("../../public/images/background.webp");
             background-size: 100% 100%;
         }
-        h4 {
+        h3 {
             font-weight: 600;
             cursor: default;
             text-decoration: underline;
             text-shadow: 0 0.063rem 0 #1f0b30, 0 0.063rem 0 #a6a6a6, 0 0.125rem 0 #1f0b30;
         }
-        h4,.text{
+        h3,.text{
             text-align:left;
         }
         .carousel-control-prev {
