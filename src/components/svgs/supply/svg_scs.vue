@@ -42,17 +42,15 @@
         .jl1{display:none;fill:url(#SVGIDscs_2_);}
         .jl2{fill:#FFFFFF;}
     }
-    .box_7{
-        animation:  color_box_7  15s infinite;
-    }
+    .box_7{animation:  color_box_7  15s infinite;}
     @keyframes color_box_7 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: #922cd3;}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: #922cd3;}
     }
 </style>

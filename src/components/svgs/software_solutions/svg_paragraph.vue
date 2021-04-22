@@ -37,21 +37,13 @@
         float:left;
         margin:0 !important;
     }
-
     @media screen and (max-width: 500px) {
-        #square{
-            width: 15px !important;
-        }
+        #square{width: 15px !important;}
     }
     @media screen and (min-width: 500px)and (max-width: 768px) {
-        #square{
-            width: 20px !important;
-        }
+        #square{width: 20px !important;}
     }
     @media screen and (min-width: 768px)and (max-width: 992px) {
-        #square{
-            width: 25px !important;
-        }
+        #square{width: 25px !important;}
     }
-
 </style>

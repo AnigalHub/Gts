@@ -36,17 +36,15 @@
         .zv1{display:none;fill:url(#SVGIDvideo_surveillance_equipment_2_);}
         .zv2{fill:#FFFFFF;}
     }
-    .box_6{
-        animation:  color_box_6  15s infinite;
-    }
+    .box_6{animation:  color_box_6  15s infinite;}
     @keyframes color_box_6 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: #922cd3;}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: #922cd3;}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
 </style>

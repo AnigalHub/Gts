@@ -36,17 +36,15 @@
         .ol1{display:none;fill:url(#SVGIDprojectors_2_);}
         .ol2{fill:#FFFFFF;}
     }
-    .box_5{
-        animation:  color_box_5  15s infinite;
-    }
+    .box_5{animation:  color_box_5  15s infinite;}
     @keyframes color_box_5 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill:#922cd3;}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill:#922cd3;}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
 </style>

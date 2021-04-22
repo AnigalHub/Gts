@@ -37,17 +37,15 @@
         .mn1{display:none;fill:url(#SVGIDsoftware_2_);}
         .mn2{fill:#FFFFFF;}
     }
-    .box_4{
-        animation:  color_box_4  15s infinite;
-    }
+    .box_4{animation:  color_box_4  15s infinite;}
     @keyframes color_box_4 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: #922cd3;}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: #922cd3;}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
 </style>

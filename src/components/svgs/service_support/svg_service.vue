@@ -784,26 +784,12 @@
         .pi119{fill:url(#SVGGID_65_);}
         .pi120{fill:url(#SVGGID_66_);}
     }
-
-    .wires_support_1{
-        animation:  wires_color_support 3s infinite;
-    }
-    .wires_support_2{
-        animation:  wires_color_support 5s infinite;
-    }
-
-    .wires_support_3{
-        animation:  wires_color_support 7s infinite;
-    }
+    .wires_support_1{animation:  wires_color_support 3s infinite;}
+    .wires_support_2{animation:  wires_color_support 5s infinite;}
+    .wires_support_3{animation:  wires_color_support 7s infinite;}
     @keyframes wires_color_support {
-        0% {
-            fill: url(#SVGGID_65_);
-        }
-        50% {
-            fill: url(#SVGGID_65_);
-        }
-        100% {
-            fill: url(#SVGGID_55_);
-        }
+        0%   {fill: url(#SVGGID_65_);}
+        50%  {fill: url(#SVGGID_65_);}
+        100% {fill: url(#SVGGID_55_);}
     }
 </style>

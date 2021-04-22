@@ -1930,18 +1930,14 @@
         .nn186{fill:url(#idSVG_174_);}
         .nn187{fill:url(#idSVG_175_);}
     }
-    .glare{
-        animation: up-down-3 5s infinite;
-    }
+    .glare{animation: up-down-3 5s infinite;}
     @keyframes up-down-3{
-        0%{transform: initial;}
-        25%{transform: translateY(10px);}
-        50%{transform: initial;}
-        100%{transform: translateY(-10px);}
+        0%   {transform: initial;}
+        25%  {transform: translateY(10px);}
+        50%  {transform: initial;}
+        100% {transform: translateY(-10px);}
     }
-    .check_mark{
-        animation:  color_mark 6s infinite;
-    }
+    .check_mark{animation:  color_mark 6s infinite;}
     @keyframes color_mark {
         0%   {fill: #2AF6FF;}
         25%  {fill: #cb64ea;}

@@ -38,11 +38,11 @@
 
 <style lang="scss" scoped>
     #video_monitoring{
-    .cls-1{fill:url(#a);}
-    .cls-2{fill:url(#e);}
-    .cls-3{fill:url(#d);}
-    .cls-4{fill:url(#c);}
-    .cls-5{fill:url(#b);}
-    .cls-6{fill:url(#linear-gradient-6);}
+        .cls-1{fill:url(#a);}
+        .cls-2{fill:url(#e);}
+        .cls-3{fill:url(#d);}
+        .cls-4{fill:url(#c);}
+        .cls-5{fill:url(#b);}
+        .cls-6{fill:url(#linear-gradient-6);}
     }
 </style>

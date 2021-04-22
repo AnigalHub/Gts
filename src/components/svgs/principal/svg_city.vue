@@ -6310,48 +6310,35 @@
      .st906{fill:url(#SVGID_892_);}
      .st907{fill:url(#SVGID_893_);}
  }
- svg{
-     margin-top:-6%;
- }
- .glare{
-	 animation: up-down-3 5s infinite;
- }
+ svg{margin-top:-6%;}
+ .glare{animation: up-down-3 5s infinite;}
  @keyframes up-down-3{
-	 0%{transform: initial;}
-	 25%{transform: translateY(10px);}
-	 50%{transform: initial;}
-	 100%{transform: translateY(-10px);}
+	 0%   {transform: initial;}
+	 25%  {transform: translateY(10px);}
+	 50%  {transform: initial;}
+	 100% {transform: translateY(-10px);}
  }
- .chart{
-	 animation: up-down-1 2s infinite;
-
- }
+ .chart{animation: up-down-1 2s infinite;}
  @keyframes up-down-1{
-	 0%{transform: initial;}
-	 25%{transform: translateY(-.5px);}
-	 50%{transform: initial;}
-	 100%{transform: translateY(1px);}
+	 0%   {transform: initial;}
+	 25%  {transform: translateY(-.5px);}
+	 50%  {transform: initial;}
+	 100% {transform: translateY(1px);}
  }
- .chart_2{
-	 animation: up-down-2 1s infinite;
- }
+ .chart_2{animation: up-down-2 1s infinite;}
  @keyframes up-down-2{
-	 0%{transform: initial;}
-	 25%{transform: translateY(1.5px);}
-	 50%{transform: initial;}
-	 100%{transform: initial;}
+	 0%   {transform: initial;}
+	 25%  {transform: translateY(1.5px);}
+	 50%  {transform: initial;}
+	 100% {transform: initial;}
  }
- .indicators{
-	 animation: blinking 5s infinite;
- }
- .indicators_2{
-	 animation:  blinking_2 5s infinite;
- }
+ .indicators{animation: blinking 5s infinite;}
+ .indicators_2{animation:  blinking_2 5s infinite;}
  @keyframes up-down-1{
-	 0%{transform: initial;}
-	 25%{transform: translateY(-1px);}
-	 50%{transform: initial;}
-	 100%{transform: translateY(1px);}
+	 0%   {transform: initial;}
+	 25%  {transform: translateY(-1px);}
+	 50%  {transform: initial;}
+	 100% {transform: translateY(1px);}
  }
  @keyframes blinking {
 	 0%   {fill: #67a9c1;}
@@ -6367,12 +6354,8 @@
 	 75%  {fill: #484d9a;}
 	 100% {fill: #67a9c1;}
  }
- .indicators_3{
-	 animation: blinking_3 5s infinite;
- }
- .indicators_4{
-	 animation: blinking_4 5s infinite;
- }
+ .indicators_3{animation: blinking_3 5s infinite;}
+ .indicators_4{animation: blinking_4 5s infinite;}
  @keyframes blinking_3 {
 	 0%   {fill: #bf7f7a;}
 	 25%  {fill: #5915a1;}
@@ -6387,21 +6370,17 @@
 	 75%  {fill: #5915a1;}
 	 100% {fill: #bf7f7a;}
  }
- .lines{
-	 animation: lines_color 2s infinite;
- }
+ .lines{animation: lines_color 2s infinite;}
 
  @keyframes lines_color{
 	 0%   {fill: url(#SVGID_172_);}
 	 50%  {fill: url(#SVGID_172_);}
 	 100% {fill: url(#SVGID_170_);}
  }
- .window{
-	 animation: color_window 15s infinite;
- }
+ .window{animation: color_window 15s infinite;}
  @keyframes color_window{
 	 0%   {fill: url(#SVGID_112_);}
-	 20%   {fill: url(#SVGID_393_);}
+	 20%  {fill: url(#SVGID_393_);}
 	 50%  {fill: url(#SVGID_394_);}
 	 75%  {fill: url(#SVGID_395_);}
 	 100% {fill: url(#SVGID_96_);}

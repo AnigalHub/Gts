@@ -21,20 +21,23 @@
 </script>
 
 <style lang="scss" scoped >
-    #emblem{
+    #emblem {
         height: 3.125rem;
         width: 3.125rem;
-        .st0{fill:#9aaecf;}
-        .st1{fill:#9aaecf;stroke:#9aaecf;stroke-width:0.2415;stroke-miterlimit:10;}
-        .st2{
+        .st0 {fill: #9aaecf;}
+        .st1 {
             fill: #9aaecf;
+            stroke: #9aaecf;
+            stroke-width: 0.2415;
+            stroke-miterlimit: 10;
         }
-    }
-    #emblem:hover .st0{
-        fill: #90d4fd;
-    }
-    #emblem:hover .st1{
-        fill: #90d4fd;
-        stroke:#90d4fd;
+        .st2 {
+            fill: #9aaecf;
+            &:hover .st0 {fill: #90d4fd;}
+            &:hover .st1 {
+                fill: #90d4fd;
+                stroke: #90d4fd;
+            }
+        }
     }
 </style>

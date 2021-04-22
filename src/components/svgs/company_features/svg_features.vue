@@ -961,7 +961,7 @@
         .ff107{display:inline;fill:url(#sSVGID_85_);}
         .ff108{fill:#FFFFFF;}
         .ff109{fill:#3D358D;}
-        .ff110{fill: #000000;}
+        .ff110{fill:#000000;}
         .ff111{fill:#F6F6F6;}
         .ff112{fill:#1F1536;}
         .ff113{fill:url(#sSVGID_86_);}
@@ -988,16 +988,16 @@
         stroke-width: .5px;
     }
     .ff14{
-        animation:  color_cloud  8s infinite;
+        animation: color_cloud 8s infinite;
         stroke-width: 1.5px;
         stroke: #4d6190;
     }
     @keyframes color_cloud {
-        0%    {fill: #abe0ff;}
-        10%   {fill: #baecf9;}
+        0%   {fill: #abe0ff;}
+        10%  {fill: #baecf9;}
         25%  {fill: #cdecff;}
-        50% {fill: #cff1ff;}
-        50% {fill: #dbe7ff;}
+        50%  {fill: #cff1ff;}
+        50%  {fill: #dbe7ff;}
         75%  {fill: #ffffff;}
         95%  {fill: #dfe9ff;}
         100% {fill: #abe0ff;}

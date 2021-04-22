@@ -8716,104 +8716,88 @@
         .bn975{fill:url(#SVGIDDDDD_954_);}
         .bn976{fill:url(#SVGIDDDDD_955_);}
     }
-    .box{
-        animation:  color_box  15s infinite;
-    }
+    .box{animation:  color_box  15s infinite;}
     @keyframes color_box {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: #922cd3;}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: #922cd3;}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
-    .box_2{
-        animation:  color_box_2  15s infinite;
-    }
+    .box_2{animation:  color_box_2  15s infinite;}
     @keyframes color_box_2 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35%{fill: #922cd3;}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: #922cd3;}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
-    .box_3{
-        animation:  color_box_3  15s infinite;
-    }
+    .box_3{animation:  color_box_3  15s infinite;}
     @keyframes color_box_3 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: #922cd3;}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: #922cd3;}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
-    .box_4{
-        animation:  color_box_4  15s infinite;
-    }
+    .box_4{animation:  color_box_4  15s infinite;}
     @keyframes color_box_4 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: #922cd3;}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: #922cd3;}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
-    .box_5{
-        animation:  color_box_5  15s infinite;
-    }
+    .box_5{animation:  color_box_5  15s infinite;}
     @keyframes color_box_5 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: #922cd3;}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: #922cd3;}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
-    .box_6{
-        animation:  color_box_6  15s infinite;
-    }
+    .box_6{animation:  color_box_6  15s infinite;}
     @keyframes color_box_6 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill:#922cd3;}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill:#922cd3;}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
-    .box_7{
-         animation:  color_box_7  15s infinite;
-     }
+    .box_7{animation:  color_box_7  15s infinite;}
     @keyframes color_box_7 {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: url(#SVGIDDDDD_63_);}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: #922cd3;}
+        20%  {fill: url(#SVGIDDDDD_63_);}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: #922cd3;}
     }
-    .glare{
-        animation: up-down-3 5s infinite;
-    }
+    .glare{animation: up-down-3 5s infinite;}
     @keyframes up-down-3{
-        0%{transform: initial;}
-        25%{transform: translateY(10px);}
-        50%{transform: initial;}
-        100%{transform: translateY(-10px);}
+        0%   {transform: initial;}
+        25%  {transform: translateY(10px);}
+        50%  {transform: initial;}
+        100% {transform: translateY(-10px);}
     }
 </style>

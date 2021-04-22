@@ -45,8 +45,6 @@
         width: 100px ;
         height:65px;
         float: left;
-    }
-    #delivery{
         .cls-1{fill:url(#a);}
         .cls-2{fill:url(#h);}
         .cls-3{fill:url(#g);}

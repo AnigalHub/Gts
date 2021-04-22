@@ -54,8 +54,6 @@
         width: 100px ;
         height:65px;
         float: left;
-    }
-    #introduction{
         .cls-1{fill:url(#a);}
         .cls-2{fill:url(#i);}
         .cls-3{fill:url(#h);}

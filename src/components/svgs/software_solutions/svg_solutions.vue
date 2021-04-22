@@ -6505,108 +6505,88 @@
         .rr657{opacity:0.3;fill:url(#SVGIDes_635_);enable-background:new;}
         .rr658{opacity:0.3;fill:url(#SVGIDes_636_);enable-background:new;}
     }
-    .colour{
-        animation:  color_change  2s infinite;
-    }
-    .colour_2{
-        animation:  color_change_2  2s infinite;
-    }
-    .colour_3{
-        animation:  color_change_3  2s infinite;
-    }
-    .colour_4{
-        animation:  color_change_4  2s infinite;
-    }
-    .colour_5{
-        animation:  color_change_5  2s infinite;
-    }
-    .colour_6{
-        animation:  color_change_6  2s infinite;
-    }
-    .colour_7{
-        animation:  color_change_7  2s infinite;
-    }
+    .colour{animation: color_change  2s infinite;}
+    .colour_2{animation: color_change_2  2s infinite;}
+    .colour_3{animation: color_change_3  2s infinite;}
+    .colour_4{animation: color_change_4  2s infinite;}
+    .colour_5{animation: color_change_5  2s infinite;}
+    .colour_6{animation: color_change_6  2s infinite;}
+    .colour_7{animation: color_change_7  2s infinite;}
     @keyframes color_change {
         0%   {fill: #4B61B8;}
-        15%   {fill: #4B61B8;}
-        35%   {fill: #4B61B8;}
-        55%   {fill: #4B61B8;}
-        75% {fill: #2AF6FF;}
+        15%  {fill: #4B61B8;}
+        35%  {fill: #4B61B8;}
+        55%  {fill: #4B61B8;}
+        75%  {fill: #2AF6FF;}
         95%  {fill: #2AF6FF;}
         100% {fill: #FFE4A7;}
     }
     @keyframes color_change_2 {
         0%   {fill: #FFE4A7;}
-        15%   {fill: #4B61B8;}
-        35%   {fill: #4B61B8;}
-        55%   {fill: #4B61B8;}
-        75% {fill: #4B61B8;}
+        15%  {fill: #4B61B8;}
+        35%  {fill: #4B61B8;}
+        55%  {fill: #4B61B8;}
+        75%  {fill: #4B61B8;}
         95%  {fill: #4B61B8;}
         100% {fill: #4B61B8;}
     }
     @keyframes color_change_3 {
         0%   {fill: #2AF6FF;}
-        15%   {fill: #FFE4A7;}
-        35%   {fill: #4B61B8;}
-        55%   {fill: #4B61B8;}
-        75% {fill: #4B61B8;}
+        15%  {fill: #FFE4A7;}
+        35%  {fill: #4B61B8;}
+        55%  {fill: #4B61B8;}
+        75%  {fill: #4B61B8;}
         95%  {fill: #4B61B8;}
         100% {fill: #4B61B8;}
     }
     @keyframes color_change_4 {
         0%   {fill: #2AF6FF;}
-        15%   {fill: #2AF6FF;}
-        35%   {fill: #FFE4A7;}
-        55%   {fill: #4B61B8;}
-        75% {fill: #4B61B8;}
+        15%  {fill: #2AF6FF;}
+        35%  {fill: #FFE4A7;}
+        55%  {fill: #4B61B8;}
+        75%  {fill: #4B61B8;}
         95%  {fill: #4B61B8;}
         100% {fill: #4B61B8;}
     }
     @keyframes color_change_5 {
         0%   {fill: #4B61B8;}
-        15%   {fill: #2AF6FF;}
-        35%   {fill: #2AF6FF;}
-        55%   {fill: #FFE4A7;}
-        75% {fill: #4B61B8;}
+        15%  {fill: #2AF6FF;}
+        35%  {fill: #2AF6FF;}
+        55%  {fill: #FFE4A7;}
+        75%  {fill: #4B61B8;}
         95%  {fill: #4B61B8;}
         100% {fill: #4B61B8;}
     }
     @keyframes color_change_6 {
         0%   {fill: #4B61B8;}
-        15%   {fill: #4B61B8;}
-        35%   {fill: #2AF6FF;}
-        55%   {fill: #2AF6FF;}
+        15%  {fill: #4B61B8;}
+        35%  {fill: #2AF6FF;}
+        55%  {fill: #2AF6FF;}
         75%  {fill: #FFE4A7;}
-        95%  { fill: #4B61B8;}
+        95%  {fill: #4B61B8;}
         100% {fill: #4B61B8;}
     }
     @keyframes color_change_7 {
         0%   {fill: #4B61B8;}
-        15%   {fill: #4B61B8;}
-        35%   {fill: #4B61B8;}
+        15%  {fill: #4B61B8;}
+        35%  {fill: #4B61B8;}
         55%  {fill: #2AF6FF;}
-        75% {fill: #2AF6FF;}
+        75%  {fill: #2AF6FF;}
         95%  {fill: #FFE4A7;}
-        100%  {fill: #4B61B8;}
+        100% {fill: #4B61B8;}
     }
-    .crr{
-        animation:  crr 5s infinite;
-    }
+    .crr{animation:  crr 5s infinite;}
     @keyframes crr {
         0%   {fill: url(#SVGIDes_487_);}
-        50%   {fill: url(#SVGIDes_487_);}
-        100%   {fill: url(#SVGIDes_45_);}
+        50%  {fill: url(#SVGIDes_487_);}
+        100% {fill: url(#SVGIDes_45_);}
     }
-    .crr_2{
-        animation:  crr 5s infinite;
-    }
-    .crr_3{
-        animation:  crr_3 5s infinite;
-    }
+    .crr_2{animation:  crr 5s infinite;}
+    .crr_3{animation:  crr_3 5s infinite;}
     @keyframes crr_3 {
         0%   {fill: url(#SVGIDes_60_);}
-        50%   {fill: url(#SVGIDes_60_);}
-        100%   {fill: url(#SVGIDes_45_);}
+        50%  {fill: url(#SVGIDes_60_);}
+        100% {fill: url(#SVGIDes_45_);}
     }
     svg{
         height: 100%;

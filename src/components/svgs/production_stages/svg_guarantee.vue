@@ -41,13 +41,11 @@
         width: 100px ;
         height:65px;
         float: left;
-    }
-    #guarantee{
-    .cls-1{fill:url(#a);}
-    .cls-2{fill:url(#f);}
-    .cls-3{fill:url(#e);}
-    .cls-4{fill:url(#d);}
-    .cls-5{fill:url(#c);}
-    .cls-6{fill:url(#b);}
+        .cls-1{fill:url(#a);}
+        .cls-2{fill:url(#f);}
+        .cls-3{fill:url(#e);}
+        .cls-4{fill:url(#d);}
+        .cls-5{fill:url(#c);}
+        .cls-6{fill:url(#b);}
     }
 </style>

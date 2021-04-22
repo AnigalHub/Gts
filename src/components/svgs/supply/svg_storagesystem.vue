@@ -32,17 +32,15 @@
         .ty0{fill:url(#SVGIDserver_1_);}
         .ty1{fill:#FFFFFF;}
     }
-    .box{
-        animation:  color_box  15s infinite;
-    }
+    .box{animation:  color_box  15s infinite;}
     @keyframes color_box {
         0%   {fill: url(#SVGIDDDDD_63_);}
-        20% {fill: #922cd3;}
-        35% {fill: url(#SVGIDDDDD_63_);}
-        50% {fill: url(#SVGIDDDDD_63_);}
-        65% {fill: url(#SVGIDDDDD_63_);}
-        70% {fill: url(#SVGIDDDDD_63_);}
-        95% {fill: url(#SVGIDDDDD_63_);}
-        100%  {fill: url(#SVGIDDDDD_63_);}
+        20%  {fill: #922cd3;}
+        35%  {fill: url(#SVGIDDDDD_63_);}
+        50%  {fill: url(#SVGIDDDDD_63_);}
+        65%  {fill: url(#SVGIDDDDD_63_);}
+        70%  {fill: url(#SVGIDDDDD_63_);}
+        95%  {fill: url(#SVGIDDDDD_63_);}
+        100% {fill: url(#SVGIDDDDD_63_);}
     }
 </style>

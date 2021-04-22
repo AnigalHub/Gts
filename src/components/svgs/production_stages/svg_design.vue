@@ -1,5 +1,5 @@
 <template>
-    <svg id="proekt"  viewBox="0 0 184.61 187.91" xmlns="http://www.w3.org/2000/svg">
+    <svg id="design"  viewBox="0 0 184.61 187.91" xmlns="http://www.w3.org/2000/svg">
         <defs>
             <linearGradient id="a" x1="19.52" x2="175.41" y1="166.73" y2="10.85" gradientUnits="userSpaceOnUse">
                 <stop stop-color="#8bcdf5" offset="0"/>
@@ -22,18 +22,15 @@
 
 <script>
     export default {
-        name: "svg_proektirovanie"
+        name: "svg_design"
     }
 </script>
 
 <style scoped lang="scss">
-    #proekt{
+    #design{
         width: 100px ;
         height:65px;
         float: left;
-    }
-    #proekt{
-        .cls-1{fill:url(#a);
-        }
+        .cls-1{fill:url(#a);}
     }
 </style>

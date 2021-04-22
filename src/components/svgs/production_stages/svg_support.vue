@@ -70,32 +70,30 @@
 
 <style lang="scss" scoped>
     #support{
-        width: 100px ;
+        width: 100px;
         height:65px;
         float: left;
-    }
-    #support{
-    .cls-1{fill:url(#a);}
-    .cls-2{fill:url(#l);}
-    .cls-3{fill:url(#h);}
-    .cls-4{fill:url(#g);}
-    .cls-5{fill:url(#f);}
-    .cls-6{fill:url(#e);}
-    .cls-7{fill:url(#d);}
-    .cls-8{fill:url(#c);}
-    .cls-9{fill:url(#b);}
-    .cls-10{fill:url(#v);}
-    .cls-11{fill:url(#u);}
-    .cls-12{fill:url(#t);}
-    .cls-13{fill:url(#s);}
-    .cls-14{fill:url(#r);}
-    .cls-15{fill:url(#q);}
-    .cls-16{fill:url(#p);}
-    .cls-17{fill:url(#o);}
-    .cls-18{fill:url(#n);}
-    .cls-19{fill:url(#m);}
-    .cls-20{fill:url(#k);}
-    .cls-21{fill:url(#j);}
-    .cls-22{fill:url(#i);}
+        .cls-1{fill:url(#a);}
+        .cls-2{fill:url(#l);}
+        .cls-3{fill:url(#h);}
+        .cls-4{fill:url(#g);}
+        .cls-5{fill:url(#f);}
+        .cls-6{fill:url(#e);}
+        .cls-7{fill:url(#d);}
+        .cls-8{fill:url(#c);}
+        .cls-9{fill:url(#b);}
+        .cls-10{fill:url(#v);}
+        .cls-11{fill:url(#u);}
+        .cls-12{fill:url(#t);}
+        .cls-13{fill:url(#s);}
+        .cls-14{fill:url(#r);}
+        .cls-15{fill:url(#q);}
+        .cls-16{fill:url(#p);}
+        .cls-17{fill:url(#o);}
+        .cls-18{fill:url(#n);}
+        .cls-19{fill:url(#m);}
+        .cls-20{fill:url(#k);}
+        .cls-21{fill:url(#j);}
+        .cls-22{fill:url(#i);}
     }
 </style>
