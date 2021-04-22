@@ -12,8 +12,8 @@
             </b-navbar-toggle>
             <b-collapse id="navbar-toggle-collapse" is-nav v-model="isExpanded">
                 <b-navbar-nav>
-                        <b-nav-item @click="scrollToId" href="#about_company">О компании</b-nav-item>
-                        <b-nav-item href="#production_stages" @click="scrollToId">Этапы производства</b-nav-item>
+                        <b-nav-item @click="scrollToId" href="#about_company">О нас</b-nav-item>
+                        <b-nav-item href="#production_stages" @click="scrollToId">Производство</b-nav-item>
                         <b-nav-item href="#company_features" @click="scrollToId">Наши возможности</b-nav-item>
                         <b-nav-item href="#development" @click="scrollToId">Разработка и проектирование</b-nav-item>
                         <b-nav-item href="#supply" @click="scrollToId">Поставка</b-nav-item>
@@ -57,38 +57,78 @@
 
 
 <style lang="scss" scoped >
+    /*меню (которое будет и складываться на маленьких экранах и раскрываться на больших)*/
     .navbar{
         box-sizing: border-box;
         width: 100%;
         overflow: hidden;
         background: #1f0b35;
         padding: 0 !important;
-        .active{
-            border:0.125rem solid #8b7eb6;
-            background: #8b7eb6;
-            box-shadow: 0 2px 8px rgba(92, 84, 124, 0.4),
-            inset 0 -15px 30px rgba(66, 55, 110, 0.3);
-            color: white;
-        }
-        a{
-            margin-bottom: 0 !important;
-        }
     }
+    /*ссылки - пункты меню*/
     #navbar-toggle-collapse a {
+        margin-bottom: 0 !important;
         font-size: 1.25rem;
         float: left;
         display: block;
         color: #9aaecf;
         text-align: center;
         text-shadow: 0.031rem 0.031rem #68759c;
-        &:hover{
+        &:hover{ /*при наведении*/
             text-shadow: 0.031rem 0.031rem #eeedf5;
             color: #90d4fd;
         }
     }
 
-    @media screen and  (min-width: 1200px) {
-        .navbar-nav {
+
+    /**********АДАПТИВНОСТЬ********/
+    @media screen and (max-width: 500px) {
+        /*ссылки - пункты меню*/
+        #navbar-toggle-collapse a {padding-left: 6.5% !important;}
+        /*svg в логотипе*/
+        #emblem{
+            height: 1.75rem;
+            width: 1.75rem;
+        }
+        /*пункты меню на маленьком экране (collapse)*/
+        .navbar-toggler {
+            padding: 0.25rem 0.5rem !important;
+            margin-right: 4%;
+        }
+        /*блок под логотип*/
+        .navbar-brand {
+            padding-top: 0 !important;
+            margin-left: 1rem !important;
+        }
+    }
+    @media screen and (min-width: 500px)and (max-width: 768px) {
+        /*svg в логотипе*/
+        #emblem{
+            height: 1.875rem;
+            width: 1.875rem;
+        }
+    }
+    @media screen and (min-width: 768px)and (max-width: 992px) {
+        /*svg в логотипе*/
+        #emblem{
+            height: 2.188rem;
+            width: 2.188rem;
+        }
+    }
+    @media screen and (min-width: 992px)and (max-width: 1200px) {
+        /*svg в логотипе*/
+        #emblem{
+            height: 2.5rem;
+            width: 2.5rem;
+        }
+    }
+    @media (min-width: 1200px){
+        /*пункты меню*/
+        .navbar-expand-xl .navbar-nav .nav-link {
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .navbar-nav {/*список меню*/
             width: 95%;
             height: 3.125rem;
             position: relative;
@@ -96,10 +136,10 @@
             left: 2%;
             margin: 0;
             padding: 0;
-            .nav-item{
+            .nav-item{ /*пункт списка в меню*/
                 display: table-cell;
                 position: relative;
-                a {
+                a { /*ссылки - пункты меню*/
                     display: block;
                     position: relative;
                     width: 100%;
@@ -110,67 +150,26 @@
             }
         }
     }
-    @media (min-width: 1200px){
-        .navbar-expand-xl .navbar-nav .nav-link {
-            padding-right: 0;
-            padding-left: 0;
-        }
-    }
-    @media screen and (max-width: 500px) {
-        #navbar-toggle-collapse a {
-            padding-left: 6.5% !important;
-        }
-    }
-    @media screen and (max-width: 1350px) {
-        #navbar-toggle-collapse a {
-            font-size: 0.875rem;
-            padding-left: 2%;
-        }
-        #emblem{
-            padding-left: 2%;
-        }
-    }
     @media screen and (min-width: 1350px)and (max-width: 1400px) {
+        /*ссылки - пункты меню*/
         #navbar-toggle-collapse a {
-            font-size: 1rem;
+            font-size: 1.15rem;
+            letter-spacing: -.5px
         }
     }
     @media screen and (min-width: 1400px)and (max-width: 1600px) {
+        /*ссылки - пункты меню*/
+        #navbar-toggle-collapse a {font-size: 1.125rem;}
+    }
+    @media screen and (max-width: 1350px) {
+        /*ссылки - пункты меню*/
         #navbar-toggle-collapse a {
-            font-size: 1.125rem;
+            font-size: 1.05rem;
+            letter-spacing: -.5px;
+            padding-left: 2%;
         }
-    }
-    @media screen and (max-width: 500px) {
-        #emblem{
-            height: 1.75rem;
-            width: 1.75rem;
-        }
-        .navbar-toggler {
-            padding: 0.25rem 0.5rem !important;
-            margin-right: 4%;
-        }
-        .navbar-brand {
-            padding-top: 0 !important;
-            margin-left: 1rem !important;
-        }
-    }
-    @media screen and (min-width: 500px)and (max-width: 768px) {
-        #emblem{
-            height: 1.875rem;
-            width: 1.875rem;
-        }
-    }
-    @media screen and (min-width: 768px)and (max-width: 992px) {
-        #emblem{
-            height: 2.188rem;
-            width: 2.188rem;
-        }
-    }
-    @media screen and (min-width: 992px)and (max-width: 1200px) {
-        #emblem{
-            height: 2.5rem;
-            width: 2.5rem;
-        }
+        /*svg в логотипе*/
+        #emblem{padding-left: 2%;}
     }
 
 </style>
