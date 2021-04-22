@@ -33,10 +33,5 @@
 </script>
 
 <style lang="scss" scoped>
-    h3{
-        font-weight: 900;
-        text-decoration: underline;
-        text-decoration-color: #922cd3;
-        cursor: default;
-    }
+
 </style>
