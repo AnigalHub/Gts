@@ -97,11 +97,13 @@ h2,h3,.text{
 #principal {
   background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
   padding:0 4% 0 4% ;
-  .container {   /*контейнер (посередине экрана)*/
+  /*контейнер (посередине экрана)*/
+  .container {
     background: url("../public/images/glav.webp");
     background-size: 100% 100%;
   }
-  #gts{ /*название компании - "Гостехносервис"*/
+  /*название компании - "Гостехносервис"*/
+  #gts{
       font-size:5.313rem;
       color: #71c1db;
       text-shadow: 0 5px 0 #5050a0,
@@ -113,8 +115,9 @@ h2,h3,.text{
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%)
-    }
-  #gts_description{/*фраза - "IT-Технологии и Оборудование"*/
+  }
+  /*фраза - "IT-Технологии и Оборудование"*/
+  #gts_description{
       font-size:35px;
       color: #6199c1;
       text-shadow: 0 1px 0 #5050a0,
@@ -126,21 +129,24 @@ h2,h3,.text{
       left: 50%;
       margin-right: -50%;
       transform: translate(-50%, -50%)
-    }
-  #gts,#gts_description{ /*название компании - "Гостехносервис",фраза - "IT-Технологии и Оборудование"*/
+  }
+  /*название компании - "Гостехносервис",фраза - "IT-Технологии и Оборудование"*/
+  #gts,#gts_description{
       font-family: 'Play', sans-serif;
       text-align:center;
-    }
+  }
 }
 /*Компонент - "О компании"*/
 #about_company{
   background: linear-gradient(to top,#180b2d, #2b1149,#1d0d34);
   padding:3% 2% 2% 2% ;
-  .col{ /*параметры сетки бутстрап (блок под текст и заголовок)*/
+  /*параметры сетки бутстрап (блок под текст и заголовок)*/
+  .col{
     background: url("../public/images/background_2.webp");
     background-size: 100% 100%;
   }
-  svg{ /*svg компонента (О компании)*/
+  /*svg компонента (О компании)*/
+  svg{
     height: 100% !important;
     width: 110% !important;
   }
@@ -148,19 +154,22 @@ h2,h3,.text{
 /*Компонент - "Этапы производства"*/
 #production_stages{
   background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
-  padding:3% 2% 2% 2% ;
-  .container{  /*контейнер (посередине экрана)*/
+  padding:3% 2% 2% 2%;
+  /*контейнер (посередине экрана)*/
+  .container{
     background: url("../public/images/glav.webp");
     background-size: 100% 100%;
   }
-  h3{ /*заголовок (название этапа)*/
+  /*заголовок (название этапа)*/
+  h3{
     padding-bottom: 1%;
     cursor: default;
     text-decoration: underline;
     font-weight: 600;
     text-shadow: 0 0.063rem 0 #2e3b5c, 0 0.125rem 0 #2e3b5c, 0 0.188rem 0 #2e3b5c;
   }
-  .col{ /*параметры сетки бутстрап (блоки под этапы и svg)*/
+  /*параметры сетки бутстрап (блоки под этапы и svg)*/
+  .col{
     border-radius: 1%;
     margin: 1% 1.5%;
     padding: 0.313rem !important;
@@ -169,7 +178,8 @@ h2,h3,.text{
     background: rgba(221, 221, 234, 0.05);
     height:auto !important;
   }
-  .col_svg{ /*параметры сетки бутстрап (блок под svg)*/
+  /*параметры сетки бутстрап (блок под svg)*/
+  .col_svg{
     box-shadow: none !important;
     padding:0.938rem !important;
     border: none !important;
@@ -181,20 +191,26 @@ h2,h3,.text{
 #company_features {
   background: linear-gradient(to top,#180b2d, #2b1149,#1d0d34);
   padding:3% 2% 2% 2% ;
-  .col-7{ /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+  /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+  .col-7{
     background: url("../public/images/background_2.webp");
     background-size: 100% 100%;
   }
-  .text{font-weight: 700 !important;} /*текст по всему компоненту (Наши возможности)*/
-  .col-7 .row{padding: 5% 7% 5% 7%;} /*параметры сетки бутстрап (блок под каждую возможность)*/
-  svg { /*svg компонента (Наши возможности)*/
+  /*текст по всему компоненту (Наши возможности)*/
+  .text{font-weight: 700 !important;}
+  /*параметры сетки бутстрап (блок под каждую возможность)*/
+  .col-7 .row{padding: 5% 7% 5% 7%;}
+  /*svg компонента (Наши возможности)*/
+  svg {
     display: block;
     width: 100%;
     height: 100%;
   }
-  .place_for_facilities{padding-bottom: 2%;}/*блок под svg для каждой возможности*/
+  /*блок под svg для каждой возможности*/
+  .place_for_facilities{padding-bottom: 2%;}
+  /*svg компонента (маленькие svg под каждую возможность)*/
   #computer, #materials,#video_monitoring,
-  #access_control,#server,#telecommunications{ /*svg компонента (маленькие svg под каждую возможность)*/
+  #access_control,#server,#telecommunications{
     width: 100% ;
     height: 5.625rem ;
   }
@@ -203,19 +219,24 @@ h2,h3,.text{
 #development{
   background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
   padding:3% 2% 2% 2% ;
-  .col-6{ /*параметры сетки бутстрап (блок под текст и заголовок)*/
+  /*параметры сетки бутстрап (блок под текст и заголовок)*/
+  .col-6{
     background: url("../public/images/background.webp");
     background-size: 100% 100%;
   }
-  h3 {/*заголовок (название пункта)*/
+  /*заголовок (название пункта)*/
+  h3 {
     font-weight: 600;
     cursor: default;
     text-decoration: underline;
     text-shadow: 0 0.063rem 0 #1f0b30, 0 0.063rem 0 #a6a6a6, 0 0.125rem 0 #1f0b30;
   }
-  h3,.text{text-align:left;}  /*заголовок (название пункта), текст*/
-  .carousel-control-prev {float: left !important;} /*левая кнопка карусели*/
-  .carousel-control-prev, .carousel-control-next { /*кнопки карусели*/
+  /*заголовок (название пункта), текст*/
+  h3,.text{text-align:left;}
+  /*левая кнопка карусели*/
+  .carousel-control-prev {float: left !important;}
+  /*кнопки карусели*/
+  .carousel-control-prev, .carousel-control-next {
     position: relative !important;
     width: 10% !important;
     margin-left: 70%;
@@ -228,14 +249,18 @@ h2,h3,.text{
 #supply{
   background: linear-gradient(to top,#180b2d, #2b1149,#1d0d34);
   padding:3% 2% 2% 2%;
-  .text{padding-left: 4.375rem;} /*текст по всему компоненту (Мы поставляем)*/
-  .import_row{padding-bottom: 2%;} /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
+  /*текст по всему компоненту (Мы поставляем)*/
+  .text{padding-left: 4.375rem;}
+  /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
+  .import_row{padding-bottom: 2%;}
+  /*svg компонента (маленькие svg под каждую позицию поставки)*/
   #storage_system,#printer,#projectors,#workstations,
-  #video_surveillance_equipment,#software,#scs{ /*svg компонента (маленькие svg под каждую позицию поставки)*/
+  #video_surveillance_equipment,#software,#scs{
     height: 3.75rem ;
     float:left;
   }
-  .list_supply{ /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок))*/
+  /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок))*/
+  .list_supply{
     padding: 0 !important;
     background: url("../public/images/background_2.webp");
     background-size: 100% 100%;
@@ -245,18 +270,22 @@ h2,h3,.text{
 #software_solutions{
   background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
   padding:3% 2% 2% 2% ;
-  h3{ /*заголовок (названия программных решений)*/
+  /*заголовок (названия программных решений)*/
+  h3{
     font-weight: 900;
     text-decoration: underline;
     text-decoration-color: #922cd3;
     cursor: default;
   }
-  svg{width: 100% !important;}  /*svg компонента (Программные решения)*/
-  .program_solutions{ /*блок под программные решения и заголовок*/
+  /*svg компонента (Программные решения)*/
+  svg{width: 100% !important;}
+  /*блок под программные решения и заголовок*/
+  .program_solutions{
     background: url("../public/images/background.webp");
     background-size: 100% 100%;
   }
-  .col .row{ /*параметры сетки бутстрап (блок под каждое программное решение)*/
+  /*параметры сетки бутстрап (блок под каждое программное решение)*/
+  .col .row{
     margin-top: 2% !important;
     padding-bottom:1.5%;
   }
@@ -264,15 +293,17 @@ h2,h3,.text{
 /*Компонент - "Сервисная поддержка"*/
 #service_support{
   background: linear-gradient(to top,#180b2d, #2b1149,#1d0d34);
-  padding:3% 2% 2% 2% ;
-  .support { /*блок под пункты сервисной поддежки*/
+  padding:3% 2% 2% 2%;
+  /*блок под пункты сервисной поддежки*/
+  .support {
     padding: 0 !important;
     background: url("../public/images/background_2.webp");
     background-size: 100% 100%;
     border: none !important;
     box-shadow: none !important;
     margin: 0 !important;
-    .col { /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    .col {
       padding: 1.563rem;
       border-radius: 0.938rem;
       box-shadow: 0 0 0.313rem rgba(130, 149, 198, 0.62);
@@ -281,19 +312,23 @@ h2,h3,.text{
       margin: 0.75rem;
     }
   }
-  svg{padding-top: 15%;} /*svg компонента (Сервисная поддержка)*/
+  /*svg компонента (Сервисная поддержка)*/
+  svg{padding-top: 15%;}
 }
 /*Компонент - "Контакты"*/
 #contacts{
   background: linear-gradient(to top,#1d0d34,#2b1149,#180b2d);
-  padding:3% 2% 2% 2% ;
-  .col{ /*параметры сетки бутстрап (блок под информацию)*/
+  padding:3% 2% 2% 2%;
+  /*параметры сетки бутстрап (блок под информацию)*/
+  .col{
     background: url("../public/images/background.webp");
     background-size: 100% 100%;
   }
-  .map{/*место под карту*/
+  /*место под карту*/
+  .map{
     padding-top: 3%;
-    iframe { /*карта с гугл-карт*/
+    /*карта с гугл-карт*/
+    iframe {
       min-height: 600px;
       height: auto;
       width:100%;
@@ -322,7 +357,8 @@ h2,h3,.text{
   /*Компонент с названием и svg (самый первый)*/
   #principal{
     padding:0 !important;
-    #gts{/*название компании - "Гостехносервис"*/
+    /*название компании - "Гостехносервис"*/
+    #gts{
       font-size:1.563rem;
       top: 3.5rem;
       text-shadow: 0 1.5px 0 #5050a0,
@@ -330,7 +366,8 @@ h2,h3,.text{
       0 24px 2px rgba(0,0,0,0.1),
       0 34px 30px rgba(0,0,0,0.1);
     }
-    #gts_description{ /*фраза - "IT-Технологии и Оборудование"*/
+    /*фраза - "IT-Технологии и Оборудование"*/
+    #gts_description{
       color: #61a7c1;
       font-size:1rem;
       top: 5rem;
@@ -338,14 +375,18 @@ h2,h3,.text{
   }
   /*Компонент - "О компании"*/
   #about_company{
-    .row{ /*параметры сетки бутстрап (блок под svg, текст и заголовок)*/
+    /*параметры сетки бутстрап (блок под svg, текст и заголовок)*/
+    .row{
       flex-direction: column-reverse;
-      .col,.col-5{ /*параметры сетки бутстрап (блоки под svg, текст и заголовок)*/
+      /*параметры сетки бутстрап (блоки под svg, текст и заголовок)*/
+      .col,.col-5{
         padding-left: 0 !important;
         padding-right: 0 !important;
       }
-      .col-5{max-width: 100% !important;} /*параметры сетки бутстрап (блок под svg)*/
-      svg{ /*svg компонента (О компании)*/
+      /*параметры сетки бутстрап (блок под svg)*/
+      .col-5{max-width: 100% !important;}
+      /*svg компонента (О компании)*/
+      svg{
         width: 90% !important;
         display:block;
         margin-right: auto;
@@ -355,26 +396,32 @@ h2,h3,.text{
   }
   /*Компонент - "Этапы производства"*/
   #production_stages{
-    .container{  /*контейнер (посередине экрана)*/
+    /*контейнер (посередине экрана)*/
+    .container{
       background: url("../public/images/mob.webp");
       background-size: 100% 100%;
     }
-    .row{flex-direction:column;}/*параметры сетки бутстрап (блок под этапы и svg)*/
-    #design,#delivery,#introduction,#support,#guarantee{ /*svg компонента (маленькие svg в этапах)*/
+    /*параметры сетки бутстрап (блок под этапы и svg)*/
+    .row{flex-direction:column;}
+    /*svg компонента (маленькие svg в этапах)*/
+    #design,#delivery,#introduction,#support,#guarantee{
       width:2.188rem !important;
       height:1.75rem !important;
       padding: 0 1% !important;
     }
-    .col_svg{ /*параметры сетки бутстрап (блок под svg)*/
+    /*параметры сетки бутстрап (блок под svg)*/
+    .col_svg{
       height:auto !important;
-      svg{ /*svg компонента (Этапы производства (большая svg)*/
+      /*svg компонента (Этапы производства (большая svg)*/
+      svg{
         width: 50% !important;
         margin-left:auto;
         margin-right:auto;
         display:block;
       }
     }
-    .col{ /*параметры сетки бутстрап (блоки под этапы и svg)*/
+    /*параметры сетки бутстрап (блоки под этапы и svg)*/
+    .col{
       padding-left:0.313rem !important;
       padding-right:0.313rem !important;
       margin: 1% 1% !important;
@@ -382,49 +429,59 @@ h2,h3,.text{
   }
   /*Компонент - "Наши возможности"*/
   #company_features{
-    .place_for_svg,.col-7{ /*параметры сетки бутстрап (блок под svg, блок под текст с svg и заголовок)*/
+    /*параметры сетки бутстрап (блок под svg, блок под текст с svg и заголовок)*/
+    .place_for_svg,.col-7{
       flex: 0 0 100% !important;
       max-width: 100% !important;
       padding-right: 0 !important;
       padding-left: 0 !important;
     }
-    .parts_facilities .col{  /*параметры сетки бутстрап (блок под большую svg)*/
+    /*параметры сетки бутстрап (блок под большую svg)*/
+    .parts_facilities .col{
         padding-right: 0.313rem !important;
         padding-left: 0.313rem !important;
     }
-    #features{  /*svg компонента (Наши возможности (большая svg))*/
+    /*svg компонента (Наши возможности (большая svg))*/
+    #features{
       margin-left: auto;
       margin-right: auto;
       width: 75% !important;
     }
+    /*блок под возможности (текст, svg и заголовок) и svg*/
     .import_row{flex-direction: column-reverse;}
-    .col-7 .row{ /*параметры сетки бутстрап (блок под каждую возможность)*/
+    /*параметры сетки бутстрап (блок под каждую возможность)*/
+    .col-7 .row{
       padding-left: 0 !important;
       padding-top: 2%;
       padding-right: 0 !important;
     }
-    .possibility .col-8{ /*параметры сетки бутстрап (блок под возможность (текст))*/
+    /*параметры сетки бутстрап (блок под возможность (текст))*/
+    .possibility .col-8{
         flex: 0 0 75% !important;
         max-width: 75% !important;
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
+    /*svg компонента (маленькие svg под каждую возможность)*/
     #computer,#materials,#video_monitoring,
-    #access_control,#server,#telecommunications{  /*svg компонента (маленькие svg под каждую возможность)*/
+    #access_control,#server,#telecommunications{
       height: auto !important;
     }
   }
   /*Компонент - "Разработка и проектирование"*/
   #development{
-    .row{ /*параметры сетки бутстрап (блок под текст, заголовок и svg)*/
+    /*параметры сетки бутстрап (блок под текст, заголовок и svg)*/
+    .row{
       flex-direction: column;
-      .col-6,.col{ /*параметры сетки бутстрап (блок под текст и заголовок, блок под svg)*/
+      /*параметры сетки бутстрап (блок под текст и заголовок, блок под svg)*/
+      .col-6,.col{
         flex: 0 0 100% !important;
         max-width: 100% !important;
         padding-right: 0 !important;
         padding-left: 0 !important;
       }
-      svg{ /*svg компонента (Разработка и проектирование)*/
+      /*svg компонента (Разработка и проектирование)*/
+      svg{
         margin-left: auto;
         margin-right: auto;
         display:block;
@@ -434,50 +491,62 @@ h2,h3,.text{
   }
   /*Компонент - "Мы поставляем"*/
   #supply {
-    .text{padding-left: 1.875rem;} /*текст по всему компоненту (Мы поставляем)*/
-    .import_row {flex-direction: column-reverse;} /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
-    .col { /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и блок svg)*/
+    /*текст по всему компоненту (Мы поставляем)*/
+    .text{padding-left: 1.875rem;}
+    /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
+    .import_row {flex-direction: column-reverse;}
+    /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и блок svg)*/
+    .col {
       flex: 0 0 100% !important;
       max-width: 100% !important;
       padding-right: 0 !important;
       padding-left: 0 !important;
     }
-    #car_supply {/*svg компонента (Мы поставляем (большая svg))*/
+    /*svg компонента (Мы поставляем (большая svg))*/
+    #car_supply {
       margin-left: auto;
       margin-right: auto;
       display: block;
       width: 90% !important;
     }
+    /*svg компонента (маленькие svg под каждую позицию поставки)*/
     #storage_system, #printer, #projectors, #workstations,
-    #video_surveillance_equipment, #software, #scs { /*svg компонента (маленькие svg под каждую позицию поставки)*/
+    #video_surveillance_equipment, #software, #scs {
       height: 1.5625rem;
     }
   }
   /*Компонент - "Программныее решения"*/
   #software_solutions{
-    .import_row{flex-direction: column;} /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и svg)*/
-    .col{ /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и блок svg)*/
+    /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и svg)*/
+    .import_row{flex-direction: column;}
+    /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и блок svg)*/
+    .col{
       flex: 0 0 100% !important;
       max-width: 100% !important;
       padding-right: 0 !important;
       padding-left: 0 !important;
     }
-    h3{letter-spacing: -0.05rem;} /*заголовок (названия программных решений)*/
-    .program_svg,.program_solutions{ /*блок под большую svg, блок под программные решения и заголовок*/
+    /*заголовок (названия программных решений)*/
+    h3{letter-spacing: -0.05rem;}
+    /*блок под большую svg, блок под программные решения и заголовок*/
+    .program_svg,.program_solutions{
       flex: 0 0 100% !important;
       max-width: 100% !important;
       padding-right: 0 !important;
       padding-left: 0 !important;
     }
-    .col .row{  /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    .col .row{
       margin-bottom:1% !important;
       margin-top: .5% !important;
     }
-    .text { /*текст по всему компоненту (Программные решения)*/
+    /*текст по всему компоненту (Программные решения)*/
+    .text {
       height: 1.563rem;
       padding-left: 0.5rem !important;
     }
-    svg{ /*svg компонента (Программные решения)*/
+    /*svg компонента (Программные решения)*/
+    svg{
       margin-left: auto;
       margin-right: auto;
       width: 90% !important;
@@ -487,19 +556,23 @@ h2,h3,.text{
   }
   /*Компонент - "Сервисная поддержка"*/
   #service_support{
-    .import_row{flex-direction: column-reverse;} /*параметры сетки бутстрап (блок под сервисную поддержку svg и (текст и заголовок))*/
-    .col-5{ /*параметры сетки бутстрап (блок под svg)*/
+    /*параметры сетки бутстрап (блок под сервисную поддержку svg и (текст и заголовок))*/
+    .import_row{flex-direction: column-reverse;}
+    /*параметры сетки бутстрап (блок под svg)*/
+    .col-5{
       flex: 0 0 100% !important;
       max-width: 100% !important;
       padding-right: 0 !important;
       padding-left: 0 !important;
     }
-    .support .col {/*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    .support .col {
         border-radius: 0.5rem;
         padding: 0.313rem !important;
         margin:0.5rem;
     }
-    svg{ /*svg компонента (Сервисная поддержка)*/
+    /*svg компонента (Сервисная поддержка)*/
+    svg{
       margin-left: auto;
       margin-right: auto;
       width: 90% !important;
@@ -509,17 +582,21 @@ h2,h3,.text{
   }
   /*Компонент - "Контакты"*/
   #contacts {
-    .row {/*параметры сетки бутстрап (блок под информацию и карту)*/
+    /*параметры сетки бутстрап (блок под информацию и карту)*/
+    .row {
       flex-direction: column;
-      .col, .col-7 {/*параметры сетки бутстрап (блок под информацию, блок под карту)*/
+      /*параметры сетки бутстрап (блок под информацию, блок под карту)*/
+      .col, .col-7 {
         flex: 0 0 100% !important;
         max-width: 100% !important;
         padding-right: 0 !important;
         padding-left: 0 !important;
       }
     }
-    .map{/*место под карту*/
-      iframe { /*карта с гугл-карт*/
+    /*место под карту*/
+    .map{
+      /*карта с гугл-карт*/
+      iframe {
         min-height: 300px !important;
         border-radius: 0.625rem !important;
       }
@@ -534,7 +611,8 @@ h2,h3,.text{
   .text{font-size: 0.9375rem !important;}
   /*Компонент с названием и svg (самый первый)*/
   #principal {
-    #gts {/*название компании - "Гостехносервис"*/
+    /*название компании - "Гостехносервис"*/
+    #gts {
       font-size: 2.188rem;
       top: 5.313rem;
       text-shadow: 0 2px 0 #5050a0,
@@ -542,7 +620,8 @@ h2,h3,.text{
       0 24px 2px rgba(0, 0, 0, 0.1),
       0 34px 30px rgba(0, 0, 0, 0.1);
     }
-    #gts_description { /*фраза - "IT-Технологии и Оборудование"*/
+    /*фраза - "IT-Технологии и Оборудование"*/
+    #gts_description {
       color: #61a7c1;
       font-size: 1rem;
       top: 7.188rem;
@@ -550,10 +629,13 @@ h2,h3,.text{
   }
   /*Компонент - "О компании"*/
   #about_company{
-    .row{/*параметры сетки бутстрап (блок под svg, текст и заголовок)*/
+    /*параметры сетки бутстрап (блок под svg, текст и заголовок)*/
+    .row{
       flex-direction: column-reverse;
-      .col-5{max-width: 100% !important;} /*параметры сетки бутстрап (блок под svg)*/
-      svg{ /*svg компонента (О компании)*/
+      /*параметры сетки бутстрап (блок под svg)*/
+      .col-5{max-width: 100% !important;}
+      /*svg компонента (О компании)*/
+      svg{
         width: 60% !important;
         display:block;
         margin-right: auto;
@@ -563,22 +645,28 @@ h2,h3,.text{
   }
   /*Компонент - "Этапы производства"*/
   #production_stages{
-    .container{ /*контейнер (посередине экрана)*/
+    /*контейнер (посередине экрана)*/
+    .container{
       background: url("../public/images/mob.webp");
       background-size: 100% 100%;
     }
-    .row{flex-direction:column;}/*параметры сетки бутстрап (блок под этапы и svg)*/
-    #design,#delivery,#introduction,#support,#guarantee{ /*svg компонента (маленькие svg в этапах)*/
+    /*параметры сетки бутстрап (блок под этапы и svg)*/
+    .row{flex-direction:column;}
+    /*svg компонента (маленькие svg в этапах)*/
+    #design,#delivery,#introduction,#support,#guarantee{
       width: 1.563rem !important;
       height:1.875rem !important;
     }
-    .col_svg{height:auto !important;}/*параметры сетки бутстрап (блок под svg)*/
-    .col{/*параметры сетки бутстрап (блоки под этапы и svg)*/
+    /*параметры сетки бутстрап (блок под svg)*/
+    .col_svg{height:auto !important;}
+    /*параметры сетки бутстрап (блоки под этапы и svg)*/
+    .col{
       padding-left:0.313rem !important;
       padding-right: 0.313rem !important;
       margin: .5% .5% !important;
     }
-    #production{  /*svg компонента (Этапы производства (большая svg)*/
+    /*svg компонента (Этапы производства (большая svg)*/
+    #production{
       margin-left: auto;
       margin-right: auto;
       width: 45% !important;
@@ -588,43 +676,53 @@ h2,h3,.text{
   }
   /*Компонент - "Наши возможности"*/
   #company_features{
-    .col-7{ /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    .col-7{
       flex: 0 0 100% !important;
       max-width: 100% !important;
     }
-    .parts_facilities .col{ /*параметры сетки бутстрап (блок под большую svg)*/
+    /*параметры сетки бутстрап (блок под большую svg)*/
+    .parts_facilities .col{
         padding-right: 0.625rem !important;
         padding-left: 0.625rem !important;
     }
-    #features{  /*svg компонента (Наши возможности (большая svg))*/
+    /*svg компонента (Наши возможности (большая svg))*/
+    #features{
       margin-left: auto;
       margin-right: auto;
       width: 45% !important;
     }
-    .import_row{flex-direction: column-reverse;} /*параметры сетки бутстрап (блок под возможности (текст, svg и заголовок) и svg)*/
-    .col-7 .row{ /*параметры сетки бутстрап (блок под каждую возможность)*/
+    /*параметры сетки бутстрап (блок под возможности (текст, svg и заголовок) и svg)*/
+    .import_row{flex-direction: column-reverse;}
+    /*параметры сетки бутстрап (блок под каждую возможность)*/
+    .col-7 .row{
       padding-left: 0 !important;
       padding-top: 2%;
       padding-right: 0 !important;
     }
-    .possibility .col-8{ /*параметры сетки бутстрап (блок под возможность (текст))*/
+    /*параметры сетки бутстрап (блок под возможность (текст))*/
+    .possibility .col-8{
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
+    /*svg компонента (маленькие svg под каждую возможность)*/
     #computer,#materials,#video_monitoring,
-    #access_control,#server,#telecommunications{  /*svg компонента (маленькие svg под каждую возможность)*/
+    #access_control,#server,#telecommunications{
       height: 2.813rem !important;
     }
   }
   /*Компонент - "Разработка и проектирование"*/
   #development{
-    .row{ /*параметры сетки бутстрап (блок под текст, заголовок и svg)*/
+    /*параметры сетки бутстрап (блок под текст, заголовок и svg)*/
+    .row{
       flex-direction: column;
-      .col-6{ /*параметры сетки бутстрап (блок под текст и заголовок)*/
+      /*параметры сетки бутстрап (блок под текст и заголовок)*/
+      .col-6{
         flex: 0 0 100% !important;
         max-width: 100% !important;
       }
-      svg{ /*svg компонента (Разработка и проектирование)*/
+      /*svg компонента (Разработка и проектирование)*/
+      svg{
         margin-left: auto;
         margin-right: auto;
         display:block;
@@ -634,35 +732,44 @@ h2,h3,.text{
   }
   /*Компонент - "Мы поставляем"*/
   #supply {
-    .text{padding-left: 1.875rem;} /*текст по всему компоненту (Мы поставляем)*/
-    .import_row {flex-direction: column-reverse;} /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
-    .col {  /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и блок svg)*/
+    /*текст по всему компоненту (Мы поставляем)*/
+    .text{padding-left: 1.875rem;}
+    /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
+    .import_row {flex-direction: column-reverse;}
+    /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и блок svg)*/
+    .col {
       flex: 0 0 100% !important;
       max-width: 100% !important;
     }
-    #car_supply {  /*svg компонента (Мы поставляем (большая svg))*/
+    /*svg компонента (Мы поставляем (большая svg))*/
+    #car_supply {
       margin-left: auto;
       margin-right: auto;
       display: block;
       width: 60% !important;
     }
+    /*svg компонента (маленькие svg под каждую позицию поставки)*/
     #storage_system, #printer, #projectors, #workstations,
-    #video_surveillance_equipment, #software, #scs { /*svg компонента (маленькие svg под каждую позицию поставки)*/
+    #video_surveillance_equipment, #software, #scs {
       height: 1.5625rem;
     }
   }
   /*Компонент - "Программныее решения"*/
   #software_solutions{
-    .import_row{flex-direction: column;} /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и svg)*/
-    .col .row{  /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и svg)*/
+    .import_row{flex-direction: column;}
+    /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    .col .row{
       margin-bottom:1% !important;
       margin-top: .5% !important;
     }
-    .text { /*текст по всему компоненту (Программные решения)*/
+    /*текст по всему компоненту (Программные решения)*/
+    .text {
       line-height: 0.938rem;
       height: 2.188rem;
     }
-    svg{ /*svg компонента (Программные решения)*/
+    /*svg компонента (Программные решения)*/
+    svg{
       margin-left: auto;
       margin-right: auto;
       width: 55% !important;
@@ -672,18 +779,23 @@ h2,h3,.text{
   }
   /*Компонент - "Сервисная поддержка"*/
   #service_support{
-    .import_row{flex-direction: column-reverse;} /*параметры сетки бутстрап (блок под сервисную поддержку svg и (текст и заголовок))*/
-    .col-5{ /*параметры сетки бутстрап (блок под svg)*/
+    /*параметры сетки бутстрап (блок под сервисную поддержку svg и (текст и заголовок))*/
+    .import_row{flex-direction: column-reverse;}
+    /*параметры сетки бутстрап (блок под svg)*/
+    .col-5{
       flex: 0 0 100% !important;
       max-width: 100% !important;
     }
-    .support .col { /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    .support .col {
         border-radius: 0.625rem;
         padding: 0.625rem !important;
         margin: 0.5rem;
     }
-    .text {line-height: 0.938rem;} /*текст по всему компоненту (Сервисная поддержка)*/
-    svg{ /*svg компонента (Сервисная поддержка)*/
+    /*текст по всему компоненту (Сервисная поддержка)*/
+    .text {line-height: 0.938rem;}
+    /*svg компонента (Сервисная поддержка)*/
+    svg{
       margin-left: auto;
       margin-right: auto;
       width: 45% !important;
@@ -693,15 +805,19 @@ h2,h3,.text{
   }
   /*Компонент - "Контакты"*/
   #contacts {
-    .row { /*параметры сетки бутстрап (блок под информацию и карту)*/
+    /*параметры сетки бутстрап (блок под информацию и карту)*/
+    .row {
       flex-direction: column;
-      .col-7 {/*параметры сетки бутстрап (блок под карту)*/
+      /*параметры сетки бутстрап (блок под карту)*/
+      .col-7 {
         flex: 0 0 100% !important;
         max-width: 100% !important;
       }
     }
-    .map{/*место под карту*/
-      iframe { /*карта с гугл-карт*/
+    /*место под карту*/
+    .map{
+      /*карта с гугл-карт*/
+      iframe {
         min-height: 350px !important;
         border-radius: 0.625rem !important;
       }
@@ -719,7 +835,8 @@ h2,h3,.text{
   }
   /*Компонент с названием и svg (самый первый)*/
   #principal {
-    #gts { /*название компании - "Гостехносервис"*/
+    /*название компании - "Гостехносервис"*/
+    #gts {
       font-size: 3.438rem;
       top: 5.313rem;
       text-shadow: 0 2px 0 #5050a0,
@@ -727,17 +844,21 @@ h2,h3,.text{
       0 24px 2px rgba(0, 0, 0, 0.1),
       0 34px 30px rgba(0, 0, 0, 0.1);
     }
-    #gts_description { /*фраза - "IT-Технологии и Оборудование"*/
+    /*фраза - "IT-Технологии и Оборудование"*/
+    #gts_description {
       font-size: 1.125rem;
       top: 8.125rem;
     }
   }
   /*Компонент - "О компании"*/
   #about_company{
-    .row{/*параметры сетки бутстрап (блок под svg, текст и заголовок)*/
+    /*параметры сетки бутстрап (блок под svg, текст и заголовок)*/
+    .row{
       flex-direction: column-reverse;
-      .col-5{max-width: 90% !important;} /*параметры сетки бутстрап (блок под svg)*/
-      svg{ /*svg компонента (О компании)*/
+      /*параметры сетки бутстрап (блок под svg)*/
+      .col-5{max-width: 90% !important;}
+      /*svg компонента (О компании)*/
+      svg{
         width: 70% !important;
         display:block;
         margin-right: auto;
@@ -747,18 +868,24 @@ h2,h3,.text{
   }
   /*Компонент - "Этапы производства"*/
   #production_stages{
-    .container{ /*контейнер (посередине экрана)*/
+    /*контейнер (посередине экрана)*/
+    .container{
       background: url("../public/images/mob.webp");
       background-size: 100% 100%;
     }
-    .text{line-height: 1.125rem !important;}  /*текст по всему компоненту (Этапы производства)*/
-    .row{flex-direction:column;}/*параметры сетки бутстрап (блок под этапы и svg)*/
-    #design,#delivery,#introduction,#support,#guarantee{/*svg компонента (маленькие svg в этапах)*/
+    /*текст по всему компоненту (Этапы производства)*/
+    .text{line-height: 1.125rem !important;}
+    /*параметры сетки бутстрап (блок под этапы и svg)*/
+    .row{flex-direction:column;}
+    /*svg компонента (маленькие svg в этапах)*/
+    #design,#delivery,#introduction,#support,#guarantee{
       width: 2.813rem!important;
       height:2.813rem !important;
     }
-    .col_svg{height:auto !important;}/*параметры сетки бутстрап (блок под svg)*/
-    #production{   /*svg компонента (Этапы производства (большая svg))*/
+    /*параметры сетки бутстрап (блок под svg)*/
+    .col_svg{height:auto !important;}
+    /*svg компонента (Этапы производства (большая svg))*/
+    #production{
       margin-left: auto;
       margin-right: auto;
       width: 45% !important;
@@ -768,39 +895,48 @@ h2,h3,.text{
   }
   /*Компонент - "Наши возможности"*/
   #company_features{
-    .col-7{ /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    .col-7{
       flex: 0 0 100% !important;
       max-width: 100% !important;
     }
-    #features{  /*svg компонента (Наши возможности (большая svg))*/
+    /*svg компонента (Наши возможности (большая svg))*/
+    #features{
       margin-left: auto;
       margin-right: auto;
       width: 45% !important;
     }
-    .import_row{flex-direction: column-reverse;} /*параметры сетки бутстрап (блок под возможности (текст, svg и заголовок) и svg)*/
-    .col-7 .row{ /*параметры сетки бутстрап (блок под каждую возможность)*/
+    /*параметры сетки бутстрап (блок под возможности (текст, svg и заголовок) и svg)*/
+    .import_row{flex-direction: column-reverse;}
+    /*параметры сетки бутстрап (блок под каждую возможность)*/
+    .col-7 .row{
       padding-left: 0 !important;
       padding-top: 2%;
       padding-right: 0 !important;
     }
-    .possibility .col-8{ /*параметры сетки бутстрап (блок под возможность (текст))*/
+    /*параметры сетки бутстрап (блок под возможность (текст))*/
+    .possibility .col-8{
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
+    /*svg компонента (маленькие svg под каждую возможность)*/
     #computer,#materials,#video_monitoring,
-    #access_control,#server,#telecommunications{  /*svg компонента (маленькие svg под каждую возможность)*/
+    #access_control,#server,#telecommunications{
       height: 3.438rem !important;
     }
   }
   /*Компонент - "Разработка и проектирование"*/
   #development{
-    .row{ /*параметры сетки бутстрап (блок под текст, заголовок и svg)*/
+    /*параметры сетки бутстрап (блок под текст, заголовок и svg)*/
+    .row{
       flex-direction: column;
-      .col-6{ /*параметры сетки бутстрап (блок под текст и заголовок)*/
+      /*параметры сетки бутстрап (блок под текст и заголовок)*/
+      .col-6{
         flex: 0 0 100% !important;
         max-width: 100% !important;
       }
-      svg{ /*svg компонента (Разработка и проектирование)*/
+      /*svg компонента (Разработка и проектирование)*/
+      svg{
         margin-left: auto;
         margin-right: auto;
         display:block;
@@ -810,38 +946,47 @@ h2,h3,.text{
   }
   /*Компонент - "Мы поставляем"*/
   #supply{
-    .text{padding-left: 2.5rem;} /*текст по всему компоненту (Мы поставляем)*/
-    .import_row{flex-direction: column-reverse;}  /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
-    .col{ /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и блок svg)*/
+    /*текст по всему компоненту (Мы поставляем)*/
+    .text{padding-left: 2.5rem;}
+    /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и svg)*/
+    .import_row{flex-direction: column-reverse;}
+    /*параметры сетки бутстрап (блок под поставку (текст, svg и заголовок) и блок svg)*/
+    .col{
       flex: 0 0 100% !important;
       max-width: 100% !important;
     }
-    #car_supply{  /*svg компонента (Мы поставляем (большая svg))*/
+    /*svg компонента (Мы поставляем (большая svg))*/
+    #car_supply{
       margin-left: auto;
       margin-right: auto;
       display:block;
       width: 60% !important;
     }
+    /*svg компонента (маленькие svg под каждую позицию поставки)*/
     #storage_system,#printer, #projectors, #workstations,
-    #video_surveillance_equipment, #software, #scs{/*svg компонента (маленькие svg под каждую позицию поставки)*/
+    #video_surveillance_equipment, #software, #scs{
       height: 2.1875rem ;
     }
   }
   /*Компонент - "Программныее решения"*/
   #software_solutions{
-    .import_row{flex-direction: column;} /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и svg)*/
-    .text { /*текст по всему компоненту (Программные решения)*/
+    /*параметры сетки бутстрап (блок под программные решения (текст и заголовок) и svg)*/
+    .import_row{flex-direction: column;}
+    /*текст по всему компоненту (Программные решения)*/
+    .text {
       line-height: 0.938rem;
       height: 2.813rem;
     }
-    svg{ /*svg компонента (Программные решения)*/
+    /*svg компонента (Программные решения)*/
+    svg{
       margin-left: auto;
       margin-right: auto;
       width: 55% !important;
       display:block;
       margin-top: 0 !important;
     }
-    .col .row{  /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    .col .row{
       margin-bottom:1% !important;
       margin-top: .5% !important;
     }
@@ -868,15 +1013,19 @@ h2,h3,.text{
   }
   /*Компонент - "Контакты"*/
   #contacts {
-    .row { /*параметры сетки бутстрап (блок под информацию и карту)*/
+    /*параметры сетки бутстрап (блок под информацию и карту)*/
+    .row {
       flex-direction: column;
-      .col-7 { /*параметры сетки бутстрап (блок под карту)*/
+      /*параметры сетки бутстрап (блок под карту)*/
+      .col-7 {
         flex: 0 0 100% !important;
         max-width: 100% !important;
       }
     }
-    .map{/*место под карту*/
-      iframe { /*карта с гугл-карт*/
+    /*место под карту*/
+    .map{
+      /*карта с гугл-карт*/
+      iframe {
         min-height: 400px !important;
         border-radius: 0.625rem !important;
       }
@@ -891,28 +1040,35 @@ h2,h3,.text{
   .text{font-size: 1.0625rem !important;}
   /*Компонент с названием и svg (самый первый)*/
   #principal {
-    #gts {/*название компании - "Гостехносервис"*/
+    /*название компании - "Гостехносервис"*/
+    #gts {
       font-size: 3.438rem;
       top: 6.25rem;
     }
-    #gts_description {/*фраза - "IT-Технологии и Оборудование"*/
+    /*фраза - "IT-Технологии и Оборудование"*/
+    #gts_description {
       font-size: 1.125rem;
       top: 9.688rem;
     }
   }
   /*Компонент - "Этапы производства"*/
   #production_stages{
-    .container{ /*контейнер (посередине экрана)*/
+    /*контейнер (посередине экрана)*/
+    .container{
       background: url("../public/images/mob.webp");
       background-size: 100% 100%;
     }
-    .row{flex-direction:column;}/*параметры сетки бутстрап (блок под этапы и svg)*/
-    #design,#delivery,#introduction,#support,#guarantee{/*svg компонента (маленькие svg в этапах)*/
+    /*параметры сетки бутстрап (блок под этапы и svg)*/
+    .row{flex-direction:column;}
+    /*svg компонента (маленькие svg в этапах)*/
+    #design,#delivery,#introduction,#support,#guarantee{
       width: 3.438rem !important;
       height:3.438rem !important;
     }
-    .col_svg{height:auto !important;}/*параметры сетки бутстрап (блок под svg)*/
-    #production{  /*svg компонента (Этапы производства (большая svg)*/
+    /*параметры сетки бутстрап (блок под svg)*/
+    .col_svg{height:auto !important;}
+    /*svg компонента (Этапы производства (большая svg)*/
+    #production{
       margin-left: auto;
       margin-right: auto;
       width: 45% !important;
@@ -922,52 +1078,64 @@ h2,h3,.text{
   }
   /*Компонент - "Наши возможности"*/
   #company_features{
-    .col-7{ /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    .col-7{
       flex: 0 0 66.666667% !important;
       max-width: 66.666667% !important;
     }
-    .col-7 .row{ /*параметры сетки бутстрап (блок под каждую возможность)*/
+    /*параметры сетки бутстрап (блок под каждую возможность)*/
+    .col-7 .row{
       padding-left: 0 !important;
       padding-top: 2%;
       padding-right: 0 !important;
     }
-    .possibility .col-8{ /*параметры сетки бутстрап (блок под возможность (текст))*/
+    /*параметры сетки бутстрап (блок под возможность (текст))*/
+    .possibility .col-8{
         padding-right: 0 !important;
         padding-left: 0 !important;
     }
+    /*svg компонента (маленькие svg под каждую возможность)*/
     #computer,#materials,#video_monitoring,
-    #access_control,#server,#telecommunications{  /*svg компонента (маленькие svg под каждую возможность)*/
+    #access_control,#server,#telecommunications{
       height: 5.625rem !important;
     }
   }
   /*Компонент - "Мы поставляем"*/
   #supply{
-    .text{padding-left: 2.5rem;} /*текст по всему компоненту (Мы поставляем)*/
+    /*текст по всему компоненту (Мы поставляем)*/
+    .text{padding-left: 2.5rem;}
+    /*svg компонента (маленькие svg под каждую позицию поставки)*/
     #storage_system,#printer,#projectors,#workstations,
-    #video_surveillance_equipment,#software,#scs{ /*svg компонента (маленькие svg под каждую позицию поставки)*/
+    #video_surveillance_equipment,#software,#scs{
       height: 1.875rem ;
     }
   }
   /*Компонент - "Программныее решения"*/
   #software_solutions{
-    .text { /*текст по всему компоненту (Программные решения)*/
+    /*текст по всему компоненту (Программные решения)*/
+    .text {
       line-height: 0.938rem;
       height: 3.438rem;
     }
-    .col .row{ /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    .col .row{
       margin-top: 0 !important;
       padding-bottom:0;
     }
   }
   /*Компонент - "Сервисная поддержка"*/
   #service_support{
-    .text {line-height: 0.938rem;}/*текст по всему компоненту (Сервисная поддержка)*/
-    .support .col{padding: 0.938rem !important;}/*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    /*текст по всему компоненту (Сервисная поддержка)*/
+    .text {line-height: 0.938rem;}
+    /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    .support .col{padding: 0.938rem !important;}
   }
   /*Компонент - "Контакты"*/
   #contacts {
-    .map {/*место под карту*/
-      iframe { /*карта с гугл-карт*/
+    /*место под карту*/
+    .map {
+      /*карта с гугл-карт*/
+      iframe {
         min-height: 400px !important;
         border-radius: 0.938rem !important;
       }
@@ -982,64 +1150,80 @@ h2,h3,.text{
   .text,td{font-size: 1.125rem !important;}
   /*Компонент с названием и svg (самый первый)*/
   #principal {
-    #gts {/*название компании - "Гостехносервис"*/
+    /*название компании - "Гостехносервис"*/
+    #gts {
       font-size: 3.438rem;
       top: 6.563rem;
     }
-    #gts_description {/*фраза - "IT-Технологии и Оборудование"*/
+    /*фраза - "IT-Технологии и Оборудование"*/
+    #gts_description {
       font-size: 1.125rem;
       top: 10.625rem;
     }
   }
   /*Компонент - "Этапы производства"*/
   #production_stages{
-    .text{line-height: 1.25rem;} /*текст по всему компоненту (Этапы производства)*/
-    #design,#delivery,#introduction,#support,#guarantee{/*svg компонента (маленькие svg в этапах)*/
+    /*текст по всему компоненту (Этапы производства)*/
+    .text{line-height: 1.25rem;}
+    /*svg компонента (маленькие svg в этапах)*/
+    #design,#delivery,#introduction,#support,#guarantee{
       width: 6.25rem !important;
       height:3.438rem !important;
     }
-    .col_svg{height: 1.563rem !important;}/*параметры сетки бутстрап (блок под svg)*/
+    /*параметры сетки бутстрап (блок под svg)*/
+    .col_svg{height: 1.563rem !important;}
   }
   /*Компонент - "Наши возможности"*/
   #company_features{
-    .col-7{ /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    .col-7{
       flex: 0 0 66.666667% !important;
       max-width: 66.666667% !important;
     }
-    .col-7 .row{padding-left: 0 !important;} /*параметры сетки бутстрап (блок под каждую возможность)*/
+    /*параметры сетки бутстрап (блок под каждую возможность)*/
+    .col-7 .row{padding-left: 0 !important;}
+    /*svg компонента (маленькие svg под каждую возможность)*/
     #computer,#materials,#video_monitoring,
-    #access_control,#server,#telecommunications{  /*svg компонента (маленькие svg под каждую возможность)*/
+    #access_control,#server,#telecommunications{
       height: 5rem !important;
     }
   }
   /*Компонент - "Мы поставляем"*/
   #supply{
-    .text{padding-left: 3.125rem;} /*текст по всему компоненту (Мы поставляем)*/
+    /*текст по всему компоненту (Мы поставляем)*/
+    .text{padding-left: 3.125rem;}
+    /*svg компонента (маленькие svg под каждую позицию поставки)*/
     #storage_system,#printer,#projectors,#workstations,
-    #video_surveillance_equipment,#software,#scs{ /*svg компонента (маленькие svg под каждую позицию поставки)*/
+    #video_surveillance_equipment,#software,#scs{
       height: 2.5rem ;
     }
   }
   /*Компонент - "Программныее решения"*/
   #software_solutions{
-    .text { /*текст по всему компоненту (Программные решения)*/
+    /*текст по всему компоненту (Программные решения)*/
+    .text {
       line-height: 1.25rem;
       height: 4.063rem;
     }
-    .col .row{  /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    /*параметры сетки бутстрап (блок под каждое программное решение)*/
+    .col .row{
       margin-top: 0 !important;
       padding-bottom:0;
     }
   }
   /*Компонент - "Сервисная поддержка"*/
   #service_support{
-    .text {line-height:1.25rem;} /*текст по всему компоненту (Сервисная поддержка)*/
-    .support .col{padding: 1.25rem !important;} /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    /*текст по всему компоненту (Сервисная поддержка)*/
+    .text {line-height:1.25rem;}
+    /*параметры сетки бутстрап (пункты сервисной поддержки)*/
+    .support .col{padding: 1.25rem !important;}
   }
   /*Компонент - "Контакты"*/
   #contacts {
-    .map {/*место под карту*/
-      iframe {/*карта с гугл-карт*/
+    /*место под карту*/
+    .map {
+      /*карта с гугл-карт*/
+      iframe {
         min-height: 500px !important;
         border-radius: 1.25rem !important;
       }
@@ -1054,58 +1238,71 @@ h2,h3,.text{
   .text{font-size: 1.25rem !important;}
   /*Компонент с названием и svg (самый первый)*/
   #principal {
-    #gts {/*название компании - "Гостехносервис"*/
+    /*название компании - "Гостехносервис"*/
+    #gts {
       font-size: 4.063rem;
       top: 7.813rem;
     }
-    #gts_description {/*фраза - "IT-Технологии и Оборудование"*/
+    /*фраза - "IT-Технологии и Оборудование"*/
+    #gts_description {
       font-size: 1.25rem;
       top: 12.5rem;
     }
   }
   /*Компонент - "Этапы производства"*/
   #production_stages{
-    .text {line-height: 1.25rem;}  /*текст по всему компоненту (Этапы производства)*/
-    #design,#delivery,#introduction,#support,#guarantee{/*svg компонента (маленькие svg в этапах)*/
+    /*текст по всему компоненту (Этапы производства)*/
+    .text {line-height: 1.25rem;}
+    /*svg компонента (маленькие svg в этапах)*/
+    #design,#delivery,#introduction,#support,#guarantee{
       width: 6.875rem !important;
       height:3.438rem;
     }
   }
   /*Компонент - "Наши возможности"*/
   #company_features{
-    .col-7{ /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    /*параметры сетки бутстрап (блок под текст с svg и заголовок)*/
+    .col-7{
       flex: 0 0 66.666667% !important;
       max-width: 66.666667% !important;
     }
-    .col-7 .row{padding-left: 0 !important;} /*параметры сетки бутстрап (блок под каждую возможность)*/
+    /*параметры сетки бутстрап (блок под каждую возможность)*/
+    .col-7 .row{padding-left: 0 !important;}
+    /*svg компонента (маленькие svg под каждую возможность)*/
     #computer,#materials,#video_monitoring,
-    #access_control,#server,#telecommunications{  /*svg компонента (маленькие svg под каждую возможность)*/
+    #access_control,#server,#telecommunications{
       height: 3.75rem !important;
     }
   }
   /*Компонент - "Мы поставляем"*/
   #supply{
-    .text{padding-left:3.75rem;} /*текст по всему компоненту (Мы поставляем)*/
+    /*текст по всему компоненту (Мы поставляем)*/
+    .text{padding-left:3.75rem;}
+    /*svg компонента (маленькие svg под каждую позицию поставки)*/
     #storage_system,#printer,#projectors,#workstations,
-    #video_surveillance_equipment,#software,#scs{ /*svg компонента (маленькие svg под каждую позицию поставки)*/
+    #video_surveillance_equipment,#software,#scs{
       height: 3.125rem ;
     }
   }
   /*Компонент - "Программныее решения"*/
   #software_solutions{
-    .text { /*текст по всему компоненту (Программные решения)*/
+    /*текст по всему компоненту (Программные решения)*/
+    .text {
       height: 6.25rem;
       line-height: 1.25rem;
     }
   }
   /*Компонент - "Сервисная поддержка"*/
   #service_support{
-    .text {line-height: 1.25rem;} /*текст по всему компоненту (Сервисная поддержка)*/
+    /*текст по всему компоненту (Сервисная поддержка)*/
+    .text {line-height: 1.25rem;}
   }
   /*Компонент - "Контакты"*/
   #contacts {
-    .map {/*место под карту*/
-      iframe {/*карта с гугл-карт*/
+    /*место под карту*/
+    .map {
+      /*карта с гугл-карт*/
+      iframe {
         min-height: 550px !important;
         border-radius: 1.563rem !important;
       }

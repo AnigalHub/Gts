@@ -38,11 +38,13 @@
     height: auto;
     color: white;
     max-height: 100%;
-    .text{ /*текст по компоненту - футеру*/
+    /*текст по компоненту - футеру*/
+    .text{
         margin-top: 3%;
         text-align: center;
     }
-    .col{ /*параметры сетки бутстрап (пункт информации в футере)*/
+    /*параметры сетки бутстрап (пункт информации в футере)*/
+    .col{
         text-align: center;
         padding-right: 0.313rem !important;
         padding-left: 0.313rem !important;
