@@ -1,12 +1,11 @@
 <template>
-    <div id="principal">
+	<div id="principal">
         <b-container>
 			<div id="gts">Гостехносервис</div>
 			<div id="gts_description">IT-Технологии и Оборудование</div>
 			<svgCity rel="preload" ></svgCity>
 		</b-container>
     </div>
-
 </template>
 
 <script>
